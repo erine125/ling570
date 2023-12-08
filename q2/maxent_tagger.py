@@ -19,13 +19,12 @@ output_dir = sys.argv[5]
 with open(train_file, 'r') as file:
     for line in file:
         words_tags = line.rstrip().split()
+
         for element in words_tags:
             try:
                 word, tag = element.split('/')
-
+            # This is so words with \/ are handled correctly. 
             except ValueError:
-
-                # *Check parenthesis are handled correctly. 
                 word1, word2, tag = element.split('/')
                 word = word1 + word2
 
@@ -54,7 +53,7 @@ for word, tag in list_of_word_tag_tuples:
 sorted_word_freq_dict = sorted(word_freq_dict.items(), key=lambda x: x[1], reverse=True)
 
 #### Print sorted word, freq to train_voc file
-# *We need to write this file in the output_dir folder. Right now it is just creating it in this same folder.
+# *We need to write this file in the output_dir folder. Right now it is just creating it in the current folder.
 with open('train_voc', 'w') as file:
     for element, count in sorted_word_freq_dict:
         file.write(f"{element}\t{count}\n")
