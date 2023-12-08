@@ -127,33 +127,39 @@ class POS_Tagger(object):
                 file.write(f"{element}\t{count}\n")
 
 
-    def create_vectors(self):
-
-        self.words_rarity = {}
-        self.word_contains_number = {}
-        self.word_contains_uppercase = {}
-        self.word_contains_hyphen = {}
 
 
-    def isRare(word):
-        if self.word_freq_dict[word] < self.rare_thres:
-            return True
-
-        else:
-            return False 
-
-    def containsNumber(word):
-        return any(i.isdigit() for i in word) 
-
-    def containsUpper(word):
-        return any(i.isupper() for i in word)
-
-    def containsHyphen(word):
-        return any((i == "-") for i in word)
 
 
-        
-     
+    # def create_vectors(self):
+
+    #     self.words_rarity = {}
+    #     self.word_contains_number = {}
+    #     self.word_contains_uppercase = {}
+    #     self.word_contains_hyphen = {}
+
+
+
+    ### HELPER FUNCS###
+def isRare(word):
+    if self.word_freq_dict[word] < self.rare_thres:
+        return True
+
+    else:
+        return False 
+
+def containsNumber(word):
+    return any(i.isdigit() for i in word) 
+
+def containsUpper(word):
+    return any(i.isupper() for i in word)
+
+def containsHyphen(word):
+    return any((i == "-") for i in word)
+
+
+    
+    
 
         
 
