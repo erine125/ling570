@@ -84,8 +84,8 @@ class POS_Tagger(object):
                 tag_minus_1 = list_of_word_tag_tuples[i-1][1]
                 word_minus_1 = list_of_word_tag_tuples[i-1][0]
             except IndexError:
-                tag_minus_1 = None 
-                word_minus_1 = None
+                tag_minus_1 = "BOS" 
+                word_minus_1 = "BOS"
 
             try:
                 tag_minus_2 = list_of_word_tag_tuples[i-2][1]
@@ -97,7 +97,7 @@ class POS_Tagger(object):
             try:
                 word_plus_1 = list_of_word_tag_tuples[i+1][0]
             except IndexError:
-                word_plus_1 = None 
+                word_plus_1 = "EOS" 
 
             try:
                 word_plus_2 = list_of_word_tag_tuples[i+2][0]
