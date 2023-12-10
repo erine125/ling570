@@ -20,6 +20,8 @@ def read_from_commandline():
     return train_file, test_file, rare_thres, feat_thres, output_dir
 
 
+#######POS TAGGER CLASS#######
+
 class POS_Tagger(object):
 
     def __init__(self, train_file, test_file, rare_thres, feat_thres, output_dir):
@@ -31,7 +33,6 @@ class POS_Tagger(object):
 
 
     def create_train_voc(self):
-
         list_of_word_tag_tuples = []
         self.word_freq_dict = {}
         self.indexed_word_dict = {} #dict that maps a unique index of a word to a list of its neighboring words
@@ -125,74 +126,167 @@ class POS_Tagger(object):
 
 
 
-    def create_vectors(self):
+    def create_init_feats(self):
+        # create dicts storing each feature
+        self.index_to_feature_list = {}
 
-        #dicts storing each feature
 
-        # form of these dicts: { i : True or False based on whether or not w_i contains this feature }
-        self.index_rarity = {}
-        self.index_containsnum = {}
-        self.index_containsUC = {}
-        self.index_containsHyp = {}
-
+        #create dicts storing the count of each feature
         self.init_feat_freqs = defaultdict(int) #dict that maps the name of each feature to its frequency
-        self.kept_feat_freqs = defaultdict(int) #same as init_feat_freqs, but only counts the features that are kept after applying feat_thres.
-
+        
 
         # loop through each token in the training file
-
         for i in self.indexed_word_dict:
-            word = self.indexed_word_dict[i][2]
-            word_isRare = self.isRare(word)
 
-            curW_key = "curW="+word
-            self.init_feat_freqs[curW_key] += 1
+            self.index_to_feature_list[i] = [] #for each token, store a list of its features.
+
+            #first, do features that are going to be included regardless of whether or not w_i is rare
 
             prevT = self.indexed_tag_dict[i][1]
             prevT_key = "prevT="+prevT
             self.init_feat_freqs[prevT_key] += 1
+            self.index_to_feature_list[i].append(prevT_key+":1")
+
+            prev2T = self.indexed_tag_dict[i][0]
+            if prev2T != None:
+                prevTwoTags_key = "prevTwoTags="+prev2T+ "+" +prevT 
+                self.init_feat_freqs[prevTwoTags_key] += 1
+                self.index_to_feature_list[i].append(prevTwoTags_key+":1")
 
             prevW = self.indexed_word_dict[i][1]
             prevW_key = "prevW="+prevW  
             self.init_feat_freqs[prevW_key] += 1
+            self.index_to_feature_list[i].append(prevW_key+":1")
 
             prev2W = self.indexed_word_dict[i][0]
             if prev2W != None:
                 prev2W_key = "prev2W="+prev2W  
                 self.init_feat_freqs[prev2W_key] += 1
+                self.index_to_feature_list[i].append(prev2W_key+":1")
 
             nextW = self.indexed_word_dict[i][3]
             nextW_key = "nextW="+nextW
             self.init_feat_freqs[nextW_key] += 1 
+            self.index_to_feature_list[i].append(nextW_key+":1")
 
             next2W = self.indexed_word_dict[i][3]
             if next2W != None:
                 next2W_key = "next2W="+next2W
                 self.init_feat_freqs[next2W_key] += 1 
+                self.index_to_feature_list[i].append(next2W_key+":1")
 
 
-            if word_isRare:
+            word = self.indexed_word_dict[i][2]
+            word_isRare = self.isRare(word)
+
+            if not word_isRare: # if word is not rare:
+
+                curW_key = "curW="+word
+                self.init_feat_freqs[curW_key] += 1
+                self.index_to_feature_list[i].append(curW_key+":1")
+
+            else: # if word is rare:
+
                 word_containsnum = containsNumber(word)
                 word_containsUC = containsUpper(word)
                 word_containsHyp = containsHyphen(word)
 
                 if word_containsnum: 
                     self.init_feat_freqs["containNum"] += 1
+                    self.index_to_feature_list[i].append("containNum:1")
 
                 if word_containsUC:
                     self.init_feat_freqs["containUC"] += 1
+                    self.index_to_feature_list[i].append("containUC:1")
 
                 if word_containsHyp: 
                     self.init_feat_freqs["containHyp"] += 1
-            
-            self.index_rarity[i] = word_isRare
-            self.index_containsnum = word_containsnum
-            self.index_containsUC = word_containsUC 
-            self.index_containsHyp = word_containsHyp
+                    self.index_to_feature_list[i].append("containHyp:1")
 
-        print(self.init_feat_freqs)
-        print(len(self.indexed_word_dict))
-        
+                ### prefix and suffix features ### 
+
+                for j in range(len(word)):
+                    if j == 0:
+                        
+                        pre = word[j]
+                        pre_key = "pref=" + pre 
+                        self.init_feat_freqs[pre_key] += 1
+                        self.index_to_feature_list[i].append(pre_key+":1")
+
+                        suf = word[-1]
+                        suf_key = "suf=" + suf
+                        self.init_feat_freqs[suf_key] += 1
+                        self.index_to_feature_list[i].append(suf_key+":1")
+
+                        
+                        
+
+                    elif (j == 1) or (j == 2) or (j == 3):
+                        
+                        pre = word[:j+1]
+                        pre_key = "pref=" + pre 
+                        self.init_feat_freqs[pre_key] += 1
+                        self.index_to_feature_list[i].append(pre_key+":1")
+
+                        suf = word[(-j-1):]
+                        suf_key = "suf=" + suf
+                        self.init_feat_freqs[suf_key] += 1
+                        self.index_to_feature_list[i].append(pre_key+":1")
+
+                        
+
+                        
+
+    def create_kept_feats(self):
+
+        self.kept_feat_freqs = defaultdict(int) #same as init_feat_freqs, but only counts the features that are kept after applying feat_thres.
+
+        for feat in self.init_feat_freqs:
+
+            #keep all w_i features, regardless of frequency
+            if "curW=" in feat:
+                self.kept_feat_freqs[feat] = self.init_feat_freqs[feat]
+
+            else:
+                # for all other features:
+
+                if self.init_feat_freqs[feat] >= self.feat_thres: # if a feat appears less than feat_thres, don't add it
+                    self.kept_feat_freqs[feat] = self.init_feat_freqs[feat]
+
+
+    def print_kept_feats(self):
+        sorted_kept_feats = sorted(self.kept_feat_freqs.items(), key=lambda x: x[1], reverse=True)
+        file_path = self.output_dir + "/kept_feats"
+        with open(file_path, 'w') as outfile:
+            for key, item in sorted_kept_feats:
+                outfile.write(key + " " + str(item) +"\n")
+            
+                
+    def print_init_feats(self):
+        sorted_init_feats = sorted(self.init_feat_freqs.items(), key=lambda x: x[1], reverse=True)
+        file_path = self.output_dir + "/init_feats"
+        with open(file_path, 'w') as outfile:
+            for key, item in sorted_init_feats:
+                outfile.write(key + " " + str(item) +"\n")
+
+    def print_train_vectors(self):
+
+        file_path = self.output_dir + "/final_train.vectors.txt"
+
+        with open(file_path, 'w') as outfile:
+
+            for i in self.index_to_feature_list:
+                tag = self.indexed_tag_dict[i][2]
+                toprint = tag 
+
+                for feature in self.index_to_feature_list[i]:
+                    if feature[:-2] in self.kept_feat_freqs: # for this file, we only keep features in kept_freqs
+                        toprint += " " + feature 
+
+                toprint += "\n"
+                outfile.write(toprint)
+
+
 
     def isRare(self, word):
         if self.word_freq_dict[word] < self.rare_thres:
@@ -200,8 +294,9 @@ class POS_Tagger(object):
         else:
             return False 
 
-    ###FEATURE HELPER FUNCS###
 
+
+#######FEATURE HELPER FUNCS#######
 
 def containsNumber(word):
     return any(i.isdigit() for i in word) 
@@ -225,8 +320,11 @@ def main():
     tagger = POS_Tagger(train_file, test_file, rare_thres, feat_thres, output_dir)
 
     tagger.create_train_voc()
-    tagger.create_vectors()
-
+    tagger.create_init_feats()
+    tagger.print_init_feats()
+    tagger.create_kept_feats()
+    tagger.print_kept_feats()
+    tagger.print_train_vectors()
 
 
 if __name__ == "__main__":

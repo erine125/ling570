@@ -1,0 +1,2449 @@
+JJ containUC:1
+NNS prevT=JJ:1 suf=s:1
+IN prevT=NNS:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1 suf=e:1
+NNP prevT=NNP:1 prev2W=the:1 containUC:1 suf=s:1
+CC prevT=NNP:1 pref=a:1 suf=d:1
+NNP containUC:1 suf=s:1
+NNP prevT=NNP:1 containUC:1 suf=e:1
+VBD prevT=NNP:1 pref=i:1 suf=d:1
+NN suf=n:1
+WDT prevT=NN:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+MD suf=d:1
+VB suf=t:1
+WRB nextW=the:1 next2W=the:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevW=the:1
+NN prevT=JJ:1 prev2W=the:1 suf=n:1
+NN prevT=NN:1 pref=b:1 suf=t:1
+NN prevT=NN:1 pref=a:1 suf=y:1
+MD prevT=NN:1 pref=c:1 suf=n:1
+VB suf=e:1
+NN nextW=comma:1 next2W=comma:1 pref=c:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBG prevT=comma:1 prevW=comma:1 pref=c:1
+DT prev2W=comma:1 pref=a:1 suf=r:1
+JJ prevT=DT:1
+NN prevT=JJ:1 pref=o:1 suf=e:1
+TO prevT=NN:1 nextW=the:1 next2W=the:1 pref=t:1 suf=o:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=t:1
+POS prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+NN suf=e:1
+IN prevT=NN:1 pref=o:1
+JJ prevT=IN:1
+NNS prevT=JJ:1 pref=t:1 suf=s:1 pref=th:1 pref=th:1
+. prevT=NNS:1 suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 nextW=comma:1 next2W=comma:1 pref=b:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+WP$ prevT=comma:1 prevW=comma:1 suf=e:1
+NNS prev2W=comma:1 pref=b:1 suf=s:1
+VBP prevT=NNS:1 pref=i:1 suf=e:1
+NNP containUC:1 suf=n:1
+NNP prevT=NNP:1 containUC:1 suf=n:1
+NNP prevT=NNP:1 containUC:1
+-LRB- prevT=NNP:1 containUC:1
+NNP nextW=comma:1 next2W=comma:1 containUC:1 suf=.:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 containUC:1 suf=.:1
+-RRB- prevT=NNP:1 prev2W=comma:1 nextW=comma:1 next2W=comma:1 containUC:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+MD prevT=comma:1 prevW=comma:1 suf=d:1
+VB prev2W=comma:1 nextW=the:1 next2W=the:1 suf=t:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevW=the:1 containUC:1 suf=n:1
+NNP prevT=NNP:1 prev2W=the:1 containUC:1 suf=t:1
+NNP prevT=NNP:1 containUC:1 suf=.:1
+IN prevT=NNP:1
+VBG prevT=IN:1
+JJ pref=t:1 suf=y:1
+VBG prevT=JJ:1
+NN pref=c:1
+IN prevT=NN:1 pref=b:1 suf=y:1
+VBG prevT=IN:1
+DT pref=a:1 suf=n:1
+JJ prevT=DT:1 containUC:1 suf=d:1
+NN prevT=JJ:1 pref=b:1
+CC prevT=NN:1 pref=o:1 suf=r:1
+NN pref=t:1 suf=t:1 pref=th:1 pref=th:1
+NN prevT=NN:1 pref=i:1 suf=e:1
+NN prevT=NN:1 suf=t:1
+WDT prevT=NN:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+MD suf=d:1
+RB suf=t:1
+VB pref=b:1 suf=e:1
+VBN pref=c:1 suf=d:1 pref=co:1 pref=co:1
+IN nextW=the:1 next2W=the:1 pref=o:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+NN prevT=JJ:1 prev2W=the:1 pref=b:1 suf=t:1
+. prevT=NN:1 suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 pref=b:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 pref=i:1 suf=s:1
+TO pref=t:1 suf=o:1
+VB nextW=the:1 next2W=the:1 suf=t:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevW=the:1 containUC:1
+TO prevT=NNP:1 prev2W=the:1 pref=t:1 suf=o:1
+NNP containUC:1 suf=y:1
+NNS prevT=NNP:1 pref=b:1 suf=s:1
+RB prevT=NNS:1 nextW=comma:1 next2W=comma:1 pref=o:1 suf=y:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=comma:1 prevW=comma:1 nextW=the:1 next2W=the:1 suf=s:1
+DT prevT=IN:1 prev2W=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=a:1 suf=y:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+JJ
+JJ prevT=JJ:1 pref=c:1 pref=co:1 pref=co:1
+NN prevT=JJ:1 pref=a:1 suf=n:1
+. prevT=NN:1 suf=.:1
+``
+JJ containUC:1
+NN prevT=JJ:1 pref=a:1 suf=y:1
+`` prevT=NN:1
+NN
+'' prevT=NN:1
+NN pref=b:1
+VBZ prevT=NN:1 pref=i:1 suf=s:1
+JJ suf=d:1
+CC prevT=JJ:1 pref=a:1 suf=d:1
+JJ nextW=comma:1 next2W=comma:1 suf=e:1
+comma prevT=JJ:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+RB prevT=comma:1 prevW=comma:1 suf=r:1
+RBR prev2W=comma:1 suf=e:1
+JJ suf=e:1
+IN prevT=JJ:1 pref=t:1 suf=n:1 pref=th:1 pref=th:1
+JJ prevT=IN:1 suf=t:1
+NNP prevT=JJ:1 containUC:1 suf=y:1
+NN prevT=NNP:1 nextW=comma:1 next2W=comma:1 pref=b:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+VBD prev2W=comma:1 suf=d:1
+NNP containUC:1 suf=.:1
+NNP prevT=NNP:1 containUC:1 suf=y:1
+NNP prevT=NNP:1 containUC:1
+-LRB- prevT=NNP:1 containUC:1
+NNP nextW=comma:1 next2W=comma:1 containUC:1 suf=.:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 containUC:1 suf=.:1
+-RRB- prevT=NNP:1 prev2W=comma:1 nextW=comma:1 next2W=comma:1 containUC:1
+comma nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 prev2W=comma:1 pref=b:1
+POS prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+JJ pref=c:1
+NN prevT=JJ:1 suf=r:1
+. prevT=NN:1 suf=.:1
+DT containUC:1 suf=e:1
+JJ prevT=DT:1 pref=c:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1
+NN prevT=JJ:1
+NN prevT=NN:1 suf=n:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=b:1 suf=t:1
+NN prevT=NN:1
+VBZ prevT=NN:1 pref=i:1 suf=s:1
+VBG
+$
+CD
+CD pref=b:1 suf=n:1
+IN
+NN prevT=IN:1 suf=t:1
+VBN prevT=NN:1 pref=i:1 suf=d:1
+IN nextW=the:1 next2W=the:1 pref=b:1 suf=y:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+RB prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=y:1
+VBN prev2W=the:1 pref=c:1 suf=d:1
+NNP containUC:1
+. prevT=NNP:1 suf=.:1
+DT containUC:1 suf=s:1
+NN prevT=DT:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1
+VBD prevT=NN:1 suf=s:1
+VBN pref=c:1 suf=d:1
+IN nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+NN prevT=JJ:1 prev2W=the:1
+IN prevT=NN:1 pref=i:1 suf=n:1
+NN prevT=IN:1 pref=o:1 suf=r:1
+TO prevT=NN:1 pref=t:1 suf=o:1
+VB nextW=the:1 next2W=the:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 pref=b:1 suf=t:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1
+IN prevT=NN:1
+VBG prevT=IN:1 nextW=the:1 next2W=the:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 pref=b:1 suf=t:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=t:1
+. prevT=NN:1 suf=.:1
+DT containUC:1 suf=r:1
+$ prevT=DT:1
+CD
+CD pref=b:1 suf=n:1
+MD suf=d:1
+VB pref=b:1 suf=e:1
+VBN suf=d:1
+IN pref=t:1 pref=th:1 pref=th:1
+NNP prevT=IN:1 containUC:1 suf=y:1
+NNS prevT=NNP:1 nextW=comma:1 next2W=comma:1 pref=b:1 suf=s:1
+comma prevT=NNS:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+WDT prevT=comma:1 prevW=comma:1
+VBP prev2W=comma:1 suf=y:1
+JJR suf=r:1
+NN pref=i:1 suf=t:1
+NNS prevT=NN:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+CC nextW=the:1 next2W=the:1 containUC:1 suf=t:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevW=the:1 containUC:1
+RB prevT=NNP:1 prev2W=the:1 pref=a:1 suf=o:1
+VBZ suf=s:1
+``
+NN
+'' prevT=NN:1
+NN pref=c:1
+TO prevT=NN:1 pref=t:1 suf=o:1
+VB nextW=the:1 next2W=the:1 suf=n:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevW=the:1 pref=b:1 suf=d:1
+NNS prevT=JJ:1 prev2W=the:1 pref=a:1 suf=s:1
+IN prevT=NNS:1 pref=o:1
+NNS prevT=IN:1 pref=t:1 suf=s:1 pref=th:1 pref=th:1
+WDT prevT=NNS:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+VBP pref=a:1 suf=e:1
+VBN nextW=comma:1 next2W=comma:1 suf=d:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=comma:1 prevW=comma:1 nextW=the:1 next2W=the:1
+DT prevT=IN:1 prev2W=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=a:1 suf=s:1
+MD prevT=NNS:1 prev2W=the:1 pref=c:1 suf=n:1
+VB pref=b:1 suf=e:1
+VBN suf=d:1
+RB suf=y:1
+. suf=.:1
+DT containUC:1 suf=t:1
+NN prevT=DT:1 suf=t:1
+MD prevT=NN:1 prevTwoTags=DT+NN:1 suf=d:1
+VB pref=b:1 suf=e:1
+VBN suf=d:1
+RP pref=o:1
+IN nextW=the:1 next2W=the:1 pref=a:1 suf=s:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=a:1 suf=s:1
+VBP prevT=NNS:1 prev2W=the:1 pref=a:1 suf=e:1
+VBN nextW=comma:1 next2W=comma:1 suf=d:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBG prevT=comma:1 prevW=comma:1 nextW=the:1 next2W=the:1
+DT prev2W=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevW=the:1 pref=t:1
+NN prevT=JJ:1 prev2W=the:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 suf=r:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=b:1 suf=t:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=a:1 suf=t:1
+$ prevT=IN:1
+CD
+CD nextW=comma:1 next2W=comma:1 pref=b:1 suf=n:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 pref=o:1 suf=r:1
+$ prev2W=comma:1
+CD
+CD pref=b:1 suf=n:1
+VBG pref=i:1
+NN pref=i:1 suf=t:1
+IN prevT=NN:1 pref=o:1 suf=r:1
+CD prevT=IN:1
+NNS suf=s:1
+. prevT=NNS:1 suf=.:1
+``
+PRP containUC:1 suf=t:1
+VBZ suf=s:1
+DT pref=a:1 suf=a:1
+NN prevT=DT:1
+WDT prevT=NN:1 prevTwoTags=DT+NN:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+RB pref=c:1 suf=y:1
+VBZ suf=s:1
+TO pref=t:1 suf=o:1
+VB pref=b:1 suf=e:1
+VBN nextW=comma:1 next2W=comma:1 suf=d:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+VBD prev2W=comma:1 suf=d:1
+NNP containUC:1 suf=d:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=e:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+JJ prevT=comma:1 prevW=comma:1 suf=e:1
+NN prevT=JJ:1 prev2W=comma:1 suf=r:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1
+. prevT=NNP:1 prev2W=the:1 suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 pref=a:1 suf=y:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 suf=s:1
+RB pref=a:1 suf=y:1
+VBN suf=t:1
+RB suf=y:1
+$
+CD
+CD pref=b:1 suf=n:1
+VBG
+CD
+JJ pref=i:1 suf=t:1
+NNS prevT=JJ:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=s:1
+comma prevT=NNS:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 pref=a:1 suf=d:1
+PRP prev2W=comma:1 pref=i:1 suf=t:1
+VBZ pref=i:1 suf=s:1
+JJ suf=y:1
+TO prevT=JJ:1 pref=t:1 suf=o:1
+VB
+CC pref=o:1 suf=r:1
+VB suf=e:1
+CD
+IN nextW=the:1 next2W=the:1 pref=b:1 suf=y:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 nextW=the:1 next2W=the:1 pref=t:1 suf=e:1
+DT prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 pref=b:1 suf=t:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 suf=s:1 pref=co:1 pref=co:1
+. suf=.:1
+VB containUC:1 suf=t:1
+JJ pref=o:1 suf=r:1
+NN prevT=JJ:1
+NN prevT=NN:1 nextW=comma:1 next2W=comma:1 pref=c:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+PRP prevT=comma:1 prevW=comma:1 suf=e:1
+VBD prev2W=comma:1 nextW=comma:1 next2W=comma:1 suf=d:1
+comma nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevW=the:1 prev2W=comma:1 containUC:1
+MD prevT=NNP:1 prev2W=the:1 suf=d:1
+VB pref=b:1 suf=e:1
+VBN suf=d:1
+TO pref=t:1 suf=o:1
+VB suf=y:1
+JJ pref=o:1 suf=r:1
+NN prevT=JJ:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+NNS prevT=NN:1 suf=s:1
+IN prevT=NNS:1
+NN prevT=IN:1 pref=c:1
+MD prevT=NN:1 pref=c:1 suf=d:1 pref=co:1 pref=co:1
+VB pref=b:1 suf=e:1
+VBN suf=d:1
+IN pref=b:1 suf=y:1
+VBG prevT=IN:1 nextW=the:1 next2W=the:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevW=the:1 pref=b:1 suf=d:1
+NNS prevT=JJ:1 prev2W=the:1 pref=a:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+``
+PRP containUC:1 suf=e:1
+MD suf=d:1
+VB suf=e:1
+TO pref=t:1 suf=o:1
+VB suf=t:1
+IN
+PRP prevT=IN:1 suf=e:1
+VBP suf=e:1
+VBN pref=c:1 suf=d:1 pref=co:1 pref=co:1
+IN pref=o:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1
+NNS prevT=DT:1 prevTwoTags=IN+DT:1 pref=a:1 suf=s:1
+IN prevT=NNS:1 pref=b:1 suf=e:1
+PRP prevT=IN:1 suf=e:1
+MD pref=c:1 suf=n:1
+VB suf=e:1
+RB nextW=comma:1 next2W=comma:1 suf=d:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+PRP prev2W=comma:1 suf=e:1
+VBD suf=d:1
+. suf=.:1
+DT containUC:1 suf=e:1
+VBN prevT=DT:1 pref=c:1 suf=d:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1
+NN suf=e:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=e:1
+JJ prevT=JJ:1 prev2W=the:1
+NN prevT=JJ:1
+VBZ prevT=NN:1 suf=s:1
+VBN nextW=the:1 next2W=the:1 suf=d:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=t:1
+. prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 suf=s:1
+VB nextW=the:1 next2W=the:1 pref=a:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevW=the:1 containUC:1
+TO prevT=NNP:1 prev2W=the:1 pref=t:1 suf=o:1
+VB pref=b:1
+IN nextW=the:1 next2W=the:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1 suf=y:1
+IN prevT=NNP:1 prev2W=the:1
+TO prevT=IN:1 pref=t:1 suf=o:1
+$
+CD
+CD pref=b:1 suf=n:1
+IN pref=a:1 suf=t:1
+DT prevT=IN:1 pref=a:1 suf=y:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 pref=t:1 suf=e:1
+. prevT=NN:1 prevTwoTags=DT+NN:1 suf=.:1
+RB nextW=comma:1 next2W=comma:1 containUC:1 suf=r:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+PRP prevT=comma:1 prevW=comma:1 pref=i:1 suf=t:1
+VBZ prev2W=comma:1 nextW=the:1 next2W=the:1 suf=s:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevW=the:1 containUC:1
+POS prevT=NNP:1 prev2W=the:1 suf=s:1
+JJ pref=t:1
+NNS prevT=JJ:1 pref=o:1 suf=s:1
+MD prevT=NNS:1 suf=y:1
+RB suf=t:1
+VB suf=d:1
+$
+CD
+CD nextW=comma:1 next2W=comma:1 pref=b:1 suf=n:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 pref=b:1 suf=t:1
+DT prev2W=comma:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+NN prevT=DT:1 suf=e:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 pref=i:1 suf=s:1
+VBN suf=d:1
+IN pref=a:1 suf=r:1
+VBG prevT=IN:1 pref=i:1
+NNS suf=s:1
+CC prevT=NNS:1 pref=a:1 suf=d:1
+JJ pref=o:1 suf=r:1
+NN prevT=JJ:1 nextW=comma:1 next2W=comma:1 suf=t:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 pref=a:1 suf=d:1
+VBG prev2W=comma:1
+IN
+PRP prevT=IN:1 nextW=the:1 next2W=the:1 pref=i:1 suf=t:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=t:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=e:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 nextW=the:1 next2W=the:1 pref=a:1 suf=s:1
+DT prevT=NNS:1 prev2W=the:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevW=the:1 containUC:1
+VBZ prevT=NNP:1 prev2W=the:1 suf=s:1
+. suf=.:1
+CC containUC:1 suf=t:1
+NNP containUC:1 suf=s:1
+VBD prevT=NNP:1 suf=d:1
+RB suf=t:1
+VB pref=a:1 suf=e:1
+CC pref=o:1 suf=r:1
+VB pref=i:1 suf=d:1
+JJR suf=e:1
+JJ
+NN prevT=JJ:1 nextW=comma:1 next2W=comma:1 suf=t:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBP prevT=comma:1 prevW=comma:1 suf=y:1
+NNS prev2W=comma:1 pref=o:1 suf=s:1
+IN prevT=NNS:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1
+POS prevT=NNP:1 prev2W=the:1 suf=s:1
+JJ
+NN prevT=JJ:1 nextW=comma:1 next2W=comma:1 suf=n:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 pref=a:1 suf=d:1
+NNP prev2W=comma:1 containUC:1 suf=.:1
+NNP prevT=NNP:1 containUC:1 suf=s:1
+NNP prevT=NNP:1 containUC:1 suf=r:1
+-LRB- prevT=NNP:1 containUC:1
+NNP nextW=comma:1 next2W=comma:1 containUC:1 suf=.:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 containUC:1
+. prevT=NNP:1 prev2W=comma:1 suf=.:1
+-RRB- containUC:1
+VBD nextW=the:1 next2W=the:1 suf=d:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevW=the:1 containUC:1
+NNP prevT=NNP:1 prev2W=the:1 containUC:1 suf=t:1
+NNP prevT=NNP:1 containUC:1 suf=d:1
+VBZ prevT=NNP:1 suf=s:1
+VBN pref=b:1 suf=n:1
+JJ suf=s:1
+IN prevT=JJ:1 pref=i:1 suf=n:1
+RB prevT=IN:1 suf=t:1
+VBG
+NNP containUC:1 suf=s:1
+VBN prevT=NNP:1 pref=i:1 suf=d:1
+. suf=.:1
+``
+DT containUC:1 suf=t:1
+NN prevT=DT:1 suf=y:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 suf=s:1
+TO pref=t:1 suf=o:1
+DT pref=a:1 suf=a:1
+NN prevT=DT:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 nextW=the:1 next2W=the:1 suf=e:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+CD prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=o:1 suf=e:1
+IN prev2W=the:1
+NNP prevT=IN:1 containUC:1 suf=s:1
+CC prevT=NNP:1 pref=a:1 suf=d:1
+NNP nextW=comma:1 next2W=comma:1 containUC:1 suf=s:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+WDT prevT=comma:1 prevW=comma:1
+VBZ prev2W=comma:1 suf=s:1
+TO pref=t:1 suf=o:1
+PRP suf=e:1
+NN suf=t:1
+IN prevT=NN:1 pref=o:1
+JJ prevT=IN:1 nextW=comma:1 next2W=comma:1 suf=n:1
+comma prevT=JJ:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+PRP prev2W=comma:1 suf=e:1
+VBD suf=d:1
+. suf=.:1
+``
+DT containUC:1 suf=e:1
+NNP prevT=DT:1 containUC:1
+VBZ prevT=NNP:1 pref=i:1 suf=s:1
+VBG
+TO pref=t:1 suf=o:1
+VB suf=e:1
+TO pref=t:1 suf=o:1
+VB suf=y:1
+DT pref=a:1 suf=a:1
+NN prevT=DT:1 suf=e:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 pref=o:1
+JJ prevT=IN:1 suf=r:1
+NN prevT=JJ:1 pref=c:1 suf=n:1 pref=co:1 pref=co:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=o:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1
+IN prevT=NNP:1 prev2W=the:1 pref=i:1
+PRP prevT=IN:1 pref=t:1 suf=y:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBP suf=t:1
+DT pref=t:1 suf=t:1 pref=th:1 pref=th:1
+NN prevT=DT:1 suf=d:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 pref=o:1
+NN prevT=IN:1 suf=y:1
+. prevT=NN:1 suf=.:1
+''
+DT containUC:1 suf=e:1
+NNP prevT=DT:1 containUC:1 suf=s:1
+CC prevT=NNP:1 pref=a:1 suf=d:1
+NNP containUC:1 suf=s:1
+NNP prevT=NNP:1 containUC:1 suf=e:1
+MD prevT=NNP:1
+VB suf=d:1
+DT pref=a:1 suf=a:1
+NN prevT=DT:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 nextW=the:1 next2W=the:1 pref=o:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=b:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=t:1
+NNP prevT=IN:1 containUC:1 suf=y:1
+. prevT=NNP:1 suf=.:1
+PRP containUC:1 suf=e:1
+VBP suf=e:1
+IN pref=a:1 suf=t:1
+TO prevT=IN:1 pref=t:1 suf=o:1
+VB suf=e:1
+IN pref=i:1
+NN prevT=IN:1 pref=a:1
+VBZ prevT=NN:1 suf=s:1
+. suf=.:1
+RB containUC:1 suf=d:1
+IN nextW=the:1 next2W=the:1 pref=o:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=s:1
+IN prevT=NNS:1 prev2W=the:1 pref=o:1
+NNP prevT=IN:1 containUC:1 suf=y:1
+POS prevT=NNP:1 suf=s:1
+JJ suf=t:1
+NN prevT=JJ:1 suf=t:1
+NN prevT=NN:1 suf=e:1
+CC prevT=NN:1 nextW=the:1 next2W=the:1 pref=a:1 suf=d:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=y:1
+WDT prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+VBZ suf=s:1
+VBN nextW=comma:1 next2W=comma:1 suf=d:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=a:1 suf=a:1
+JJ prevT=DT:1 prev2W=comma:1
+JJ prevT=JJ:1 pref=b:1
+NN prevT=JJ:1 pref=b:1 suf=e:1
+NNS prevT=NN:1 suf=s:1
+VBP prevT=NNS:1 pref=a:1 suf=e:1
+VBG
+RP pref=o:1 suf=t:1
+JJ
+NNS prevT=JJ:1 pref=a:1 suf=s:1
+VBG prevT=NNS:1 pref=t:1
+DT pref=a:1 suf=a:1
+JJ prevT=DT:1 suf=r:1
+NN prevT=JJ:1 suf=e:1
+colon prevT=NN:1 pref=c:1 suf=n:1 pref=co:1 pref=co:1
+VB containUC:1
+RP pref=o:1 suf=n:1
+VBG nextW=comma:1 next2W=comma:1 pref=i:1
+comma nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 prev2W=comma:1 suf=t:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+RB suf=t:1
+JJ suf=e:1
+. prevT=JJ:1 suf=.:1
+PRP$ containUC:1 suf=r:1
+NN suf=n:1
+VBZ prevT=NN:1 pref=i:1 suf=s:1
+TO pref=t:1 suf=o:1
+VB
+NNS pref=c:1 suf=s:1
+IN prevT=NNS:1
+VBG prevT=IN:1 nextW=the:1 next2W=the:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 nextW=comma:1 next2W=comma:1 suf=t:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=comma:1 prevW=comma:1 pref=a:1 suf=s:1
+JJ prevT=IN:1 prev2W=comma:1 pref=i:1
+NNS prevT=JJ:1 pref=i:1 suf=s:1
+VBD prevT=NNS:1 suf=d:1
+IN pref=i:1 suf=n:1
+NNS prevT=IN:1 suf=s:1
+IN prevT=NNS:1 nextW=the:1 next2W=the:1 pref=a:1 suf=r:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=c:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=i:1 suf=n:1
+NNP prevT=IN:1 containUC:1 suf=r:1
+RB prevT=NNP:1 containUC:1 suf=t:1
+NNS suf=s:1
+IN prevT=NNS:1 nextW=the:1 next2W=the:1 pref=a:1 suf=r:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+CD prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+NN prev2W=the:1 nextW=comma:1 next2W=comma:1 pref=c:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+JJ prevT=comma:1 prevW=comma:1 suf=r:1
+NN prevT=JJ:1 prev2W=comma:1 pref=b:1 suf=e:1
+NNS prevT=NN:1 suf=s:1
+VBN prevT=NNS:1 suf=d:1
+RP pref=o:1 suf=t:1
+NNS pref=a:1 suf=s:1
+TO prevT=NNS:1 pref=t:1 suf=o:1
+VB pref=c:1
+NNS pref=i:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+DT containUC:1 suf=s:1
+NN prevT=DT:1 pref=t:1 suf=e:1
+RP prevT=NN:1 prevTwoTags=DT+NN:1 nextW=comma:1 next2W=comma:1 pref=a:1 suf=d:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+PRP prevT=comma:1 prevW=comma:1 pref=t:1 suf=y:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBP prev2W=comma:1 suf=e:1
+VBG
+RB suf=n:1
+RBR suf=r:1
+. suf=.:1
+NNP containUC:1 suf=r:1
+NNP prevT=NNP:1 containUC:1 suf=.:1
+VBD prevT=NNP:1 suf=d:1
+DT pref=a:1 suf=a:1
+JJ prevT=DT:1
+NN prevT=JJ:1 pref=t:1 suf=n:1
+NN prevT=NN:1 pref=c:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=NN:1 pref=a:1 suf=t:1
+CD prevT=IN:1
+NN suf=.:1
+NNP prevT=NN:1 containUC:1
+NN prevT=NNP:1 suf=y:1
+CC prevT=NN:1 pref=a:1 suf=d:1
+VBD suf=d:1
+PRP pref=i:1 suf=t:1
+IN nextW=the:1 next2W=the:1 pref=o:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=a:1 suf=r:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=b:1 suf=y:1
+JJ prevT=IN:1 suf=t:1
+NN prevT=JJ:1 suf=t:1
+. prevT=NN:1 suf=.:1
+NNP containUC:1 suf=y:1
+NNP prevT=NNP:1 containUC:1 suf=s:1
+VBD prevT=NNP:1 suf=d:1
+JJ
+NNS prevT=JJ:1 pref=a:1 suf=s:1
+IN prevT=NNS:1 pref=i:1 suf=n:1
+NNS prevT=IN:1 suf=s:1
+NN prevT=NNS:1 nextW=comma:1 next2W=comma:1 suf=y:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 pref=a:1 suf=d:1
+VBD prev2W=comma:1 suf=e:1
+DT pref=a:1 suf=r:1
+JJ prevT=DT:1
+NN prevT=JJ:1 pref=a:1 suf=d:1
+VBG prevT=NN:1 pref=a:1
+NN pref=t:1 suf=y:1
+. prevT=NN:1 suf=.:1
+NNP containUC:1 suf=n:1
+NNP prevT=NNP:1 containUC:1 suf=n:1
+NNP prevT=NNP:1 containUC:1 suf=n:1
+NNP prevT=NNP:1 containUC:1 suf=.:1
+IN prevT=NNP:1 pref=b:1 suf=y:1
+NN prevT=IN:1 suf=y:1
+NN prevT=NN:1 pref=a:1 suf=n:1
+VBD prevT=NN:1 suf=d:1
+RB pref=a:1 suf=y:1
+VBN suf=n:1
+JJ
+NN prevT=JJ:1 containUC:1
+NNS prevT=NN:1 pref=a:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+PRP containUC:1 suf=t:1
+VBD pref=c:1 suf=d:1 pref=co:1 pref=co:1
+VBG
+PRP pref=t:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+IN
+NN prevT=IN:1 pref=t:1
+NN prevT=NN:1 suf=t:1
+POS prevT=NN:1 suf=s:1
+NNP containUC:1 suf=d:1
+NNP prevT=NNP:1 containUC:1 suf=s:1
+NN prevT=NNP:1 pref=b:1 suf=t:1
+CC prevT=NN:1 pref=b:1 suf=t:1
+VBD suf=d:1
+RB suf=t:1
+TO pref=t:1 suf=o:1
+WRB nextW=the:1 next2W=the:1 suf=n:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=t:1
+VBD prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=d:1
+NN suf=y:1
+. prevT=NN:1 suf=.:1
+JJ containUC:1 suf=r:1
+NN prevT=JJ:1 pref=b:1 suf=e:1
+NNS prevT=NN:1 nextW=comma:1 next2W=comma:1 suf=s:1
+comma prevT=NNS:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBG prevT=comma:1 prevW=comma:1 pref=i:1
+NNP prev2W=comma:1 containUC:1
+NNP prevT=NNP:1 containUC:1
+CC prevT=NNP:1
+NNP nextW=comma:1 next2W=comma:1 containUC:1 suf=.:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBD prevT=comma:1 prevW=comma:1 suf=e:1
+VBG prev2W=comma:1
+RP pref=o:1 suf=t:1
+JJ
+JJ prevT=JJ:1
+NN prevT=JJ:1 pref=a:1 suf=d:1
+NNS prevT=NN:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 pref=b:1 suf=e:1
+NNS prevT=NN:1 prevTwoTags=DT+NN:1 suf=s:1
+VBD prevT=NNS:1 suf=d:1
+DT pref=a:1 suf=a:1
+NN prevT=DT:1 nextW=the:1 next2W=the:1 suf=n:1
+DT prevT=NN:1 prevTwoTags=DT+NN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevW=the:1 suf=t:1
+NN prevT=JJ:1 prev2W=the:1 pref=t:1 suf=e:1
+RP prevT=NN:1 nextW=comma:1 next2W=comma:1 pref=a:1 suf=d:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+WRB prevT=comma:1 prevW=comma:1 suf=n:1
+JJ prev2W=comma:1 suf=d:1
+NNS prevT=JJ:1 pref=i:1 suf=s:1
+VBD prevT=NNS:1 nextW=the:1 next2W=the:1 suf=d:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=e:1
+NNS prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+CC prevT=NNS:1 pref=a:1 suf=d:1
+VBD nextW=the:1 next2W=the:1 suf=d:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=t:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=a:1 suf=a:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1
+. prevT=NN:1 prevTwoTags=DT+NN:1 suf=.:1
+DT containUC:1 suf=s:1
+NN prevT=DT:1 nextW=comma:1 next2W=comma:1 pref=t:1 suf=e:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevW=the:1 prev2W=comma:1 suf=s:1
+VBD prevT=NNS:1 prev2W=the:1 suf=e:1
+JJ suf=y:1
+. prevT=JJ:1 suf=.:1
+NNP nextW=comma:1 next2W=comma:1 containUC:1 suf=y:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=comma:1 prevW=comma:1 suf=r:1
+NN prevT=IN:1 prev2W=comma:1 nextW=comma:1 next2W=comma:1 suf=e:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBN prevT=comma:1 prevW=comma:1 suf=d:1
+NNS prev2W=comma:1 pref=a:1 suf=s:1
+JJ prevT=NNS:1
+NNS prevT=JJ:1 suf=s:1
+RB prevT=NNS:1 pref=a:1 suf=o:1
+IN pref=i:1 suf=n:1
+NN prevT=IN:1 pref=c:1 suf=e:1
+IN prevT=NN:1 pref=o:1
+DT prevT=IN:1 pref=a:1 suf=a:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 suf=t:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1 suf=e:1
+. prevT=NN:1 suf=.:1
+WRB nextW=the:1 next2W=the:1 containUC:1 suf=n:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=t:1
+VBD prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=t:1
+IN pref=i:1 suf=o:1
+PRP$ prevT=IN:1 pref=i:1 suf=s:1
+JJ suf=e:1
+NN prevT=JJ:1
+NNP prevT=NN:1 containUC:1 suf=y:1
+NN prevT=NNP:1 nextW=comma:1 next2W=comma:1 pref=a:1 suf=n:1
+comma prevT=NN:1 nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 prev2W=comma:1 pref=i:1 suf=t:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1
+VBD prevT=NN:1 pref=o:1 suf=d:1
+JJ
+NNS prevT=JJ:1 suf=s:1
+IN prevT=NNS:1 nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1 suf=y:1
+NNS prevT=NNP:1 prev2W=the:1 suf=s:1
+IN prevT=NNS:1 pref=o:1
+PDT prevT=IN:1
+DT pref=a:1 suf=a:1
+NN prevT=DT:1 suf=n:1
+NNS prevT=NN:1 prevTwoTags=DT+NN:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+DT containUC:1 suf=e:1
+NNS prevT=DT:1 pref=a:1 suf=s:1
+VBD prevT=NNS:1 pref=t:1 suf=d:1
+NNP containUC:1 suf=y:1
+POS prevT=NNP:1 suf=s:1
+VBN pref=a:1 suf=d:1
+NN suf=r:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=b:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=e:1
+NN prevT=JJ:1 prev2W=the:1 nextW=comma:1 next2W=comma:1 suf=e:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+`` prevT=comma:1 prevW=comma:1
+NNP prev2W=comma:1 containUC:1 suf=y:1
+VBZ prevT=NNP:1 containUC:1 suf=s:1
+JJ containUC:1 suf=y:1
+IN prevT=JJ:1 containUC:1 suf=r:1
+PRP$ prevT=IN:1 containUC:1 suf=r:1
+NN containUC:1
+. prevT=NN:1 suf=.:1
+''
+DT containUC:1
+NNP prevT=DT:1 containUC:1 suf=y:1
+NN prevT=NNP:1 suf=n:1
+VBZ prevT=NN:1 nextW=the:1 next2W=the:1 suf=s:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 nextW=comma:1 next2W=comma:1 suf=e:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+WDT prevT=comma:1 prevW=comma:1
+RB prev2W=comma:1 pref=a:1 suf=y:1
+VBD suf=s:1
+VBG pref=o:1
+CC pref=b:1 suf=t:1
+WDT
+JJ suf=y:1
+NNS prevT=JJ:1 pref=c:1 suf=s:1
+VBD prevT=NNS:1 suf=d:1
+RB suf=t:1
+VB
+IN nextW=comma:1 next2W=comma:1 pref=a:1 suf=t:1
+comma prevT=IN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBN prevT=comma:1 prevW=comma:1 suf=d:1
+RB prev2W=comma:1 pref=a:1 suf=t:1
+RB nextW=the:1 next2W=the:1 suf=e:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevW=the:1
+NN prevT=JJ:1 prev2W=the:1 suf=e:1
+IN prevT=NN:1 pref=o:1
+NNS prevT=IN:1 pref=c:1 suf=s:1
+IN prevT=NNS:1 nextW=the:1 next2W=the:1 pref=o:1 suf=r:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=d:1
+. prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=.:1
+``
+DT containUC:1
+NN prevT=DT:1 suf=t:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 pref=o:1
+NN prevT=IN:1 pref=i:1 suf=r:1
+NN prevT=NN:1 pref=c:1 suf=e:1 pref=co:1 pref=co:1
+VBZ prevT=NN:1 pref=c:1 suf=s:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1
+IN nextW=the:1 next2W=the:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+PRP prevT=IN:1 pref=t:1 suf=y:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+MD pref=c:1 suf=n:1
+VB
+TO pref=t:1 suf=o:1
+PRP nextW=comma:1 next2W=comma:1 suf=s:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+PRP prev2W=comma:1 suf=e:1
+VBZ suf=s:1
+. suf=.:1
+``
+TO containUC:1 suf=o:1
+VB suf=n:1
+DT pref=t:1 suf=t:1 pref=th:1 pref=th:1
+NN prevT=DT:1 suf=e:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 pref=i:1 suf=s:1
+RB pref=a:1 suf=y:1
+JJ pref=c:1
+. prevT=JJ:1 suf=.:1
+PRP containUC:1 suf=t:1
+MD suf=d:1
+VB suf=e:1
+VBN pref=b:1 suf=n:1
+RB pref=t:1 suf=o:1
+JJ suf=e:1
+TO prevT=JJ:1 pref=t:1 suf=o:1
+VB pref=t:1 pref=th:1 pref=th:1
+IN pref=a:1 suf=t:1
+IN prevT=IN:1 pref=o:1 suf=n:1
+NNP prevT=IN:1 containUC:1 suf=y:1
+. prevT=NNP:1 suf=.:1
+PRP containUC:1 suf=e:1
+VBD suf=d:1
+TO pref=t:1 suf=o:1
+VB pref=t:1 pref=th:1 pref=th:1
+IN pref=a:1 suf=t:1
+PRP prevT=IN:1 pref=i:1 suf=t:1
+RB pref=a:1 suf=d:1
+IN pref=o:1
+NN prevT=IN:1 pref=t:1 suf=e:1
+. prevT=NN:1 suf=.:1
+''
+NN containUC:1 suf=y:1
+POS prevT=NN:1 suf=s:1
+NNP containUC:1 suf=y:1
+NN prevT=NNP:1 pref=a:1 suf=d:1
+VBZ prevT=NN:1 suf=s:1
+DT pref=a:1 suf=a:1
+NN prevT=DT:1
+RBR prevT=NN:1 prevTwoTags=DT+NN:1 nextW=comma:1 next2W=comma:1 suf=r:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBG prevT=comma:1 prevW=comma:1
+NNS prev2W=comma:1 pref=i:1 suf=s:1
+TO prevT=NNS:1 pref=t:1 suf=o:1
+VB suf=y:1
+IN nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+CC prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=o:1 suf=r:1
+RB suf=n:1
+TO pref=t:1 suf=o:1
+VB suf=e:1
+RP pref=i:1 suf=n:1
+IN
+NNP prevT=IN:1 containUC:1 suf=y:1
+. prevT=NNP:1 suf=.:1
+IN nextW=the:1 next2W=the:1 containUC:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=e:1
+`` prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1
+NN nextW=comma:1 next2W=comma:1 containUC:1 suf=n:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+PRP prev2W=comma:1 pref=i:1 suf=t:1
+VBZ nextW=comma:1 next2W=comma:1 pref=c:1 suf=s:1 pref=co:1 pref=co:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+`` prevT=comma:1 prevW=comma:1
+VBN prev2W=comma:1 containUC:1 suf=d:1
+IN nextW=the:1 next2W=the:1 pref=o:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=s:1
+IN prevT=NNS:1 prev2W=the:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+NN prevT=JJ:1 prev2W=the:1 nextW=comma:1 next2W=comma:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=a:1
+NNS prevT=DT:1 prev2W=comma:1 pref=i:1 suf=s:1
+VBP prevT=NNS:1 suf=d:1
+TO pref=t:1 suf=o:1
+VB
+PRP$ pref=t:1 suf=r:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS suf=s:1
+VBP prevT=NNS:1 pref=a:1 suf=e:1
+VBN pref=b:1 suf=d:1
+TO pref=t:1 suf=o:1
+VB
+VB suf=t:1
+PRP pref=t:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+IN nextW=the:1 next2W=the:1 pref=a:1 suf=t:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+POS prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+NN suf=y:1
+. prevT=NN:1 suf=.:1
+''
+PRP containUC:1 suf=t:1
+VBZ suf=s:1
+RB pref=o:1 suf=n:1
+TO pref=t:1 suf=o:1
+VB
+DT pref=a:1 suf=a:1
+JJ prevT=DT:1
+JJ prevT=JJ:1 suf=d:1
+NNP prevT=JJ:1 containUC:1 suf=y:1
+NNS prevT=NNP:1 suf=s:1
+IN prevT=NNS:1 pref=b:1 suf=y:1
+NN prevT=IN:1 suf=e:1
+. prevT=NN:1 suf=.:1
+NN containUC:1 suf=r:1
+RB prevT=NN:1 pref=a:1 suf=o:1
+VBD suf=s:1
+JJ pref=a:1 suf=e:1
+TO prevT=JJ:1 pref=t:1 suf=o:1
+VB suf=r:1
+RP
+RB suf=y:1
+NNS pref=t:1 suf=s:1 pref=th:1 pref=th:1
+TO prevT=NNS:1 nextW=the:1 next2W=the:1 pref=t:1 suf=o:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+CD prevT=DT:1 prevW=the:1
+NN prev2W=the:1 pref=c:1
+. prevT=NN:1 suf=.:1
+IN nextW=the:1 next2W=the:1 containUC:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=a:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+CD prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+NN prev2W=the:1 nextW=comma:1 next2W=comma:1 suf=e:1
+comma prevT=NN:1 nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 prev2W=comma:1 pref=b:1 suf=e:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1
+VBD prevT=NN:1 pref=b:1 suf=n:1
+VBG pref=t:1
+NNS pref=c:1 suf=s:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+JJ prevT=NNS:1 nextW=comma:1 next2W=comma:1 pref=i:1 suf=e:1
+comma prevT=JJ:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+RB prevT=comma:1 prevW=comma:1 suf=y:1
+VBG prev2W=comma:1
+PRP$ pref=i:1 suf=s:1
+NN pref=t:1
+RP prevT=NN:1 suf=n:1
+JJ suf=t:1
+RB prevT=JJ:1
+TO pref=t:1 suf=o:1
+VB pref=t:1 suf=e:1
+DT pref=a:1 suf=a:1
+NN prevT=DT:1 pref=c:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 nextW=the:1 next2W=the:1 pref=a:1 suf=r:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+VBN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 suf=d:1
+CC pref=a:1 suf=d:1
+VB
+PRP pref=i:1 suf=t:1
+IN nextW=the:1 next2W=the:1 pref=o:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=a:1 suf=r:1
+DT prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+NN prevT=DT:1 suf=t:1
+. prevT=NN:1 prevTwoTags=DT+NN:1 suf=.:1
+PRP containUC:1 suf=t:1
+RB pref=a:1 suf=o:1
+VBD suf=d:1
+DT pref=a:1 suf=n:1
+NN prevT=DT:1 pref=a:1 suf=t:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1
+NNP prevT=IN:1 containUC:1 suf=e:1
+NNP prevT=NNP:1 containUC:1 suf=s:1
+NNP prevT=NNP:1 containUC:1
+IN prevT=NNP:1 suf=r:1
+WDT prevT=IN:1
+NNP containUC:1
+MD prevT=NNP:1 suf=d:1
+VB pref=a:1 suf=e:1
+TO pref=t:1 suf=o:1
+VB pref=a:1 suf=r:1
+PRP$ pref=i:1 suf=s:1
+JJ suf=e:1
+NNS prevT=JJ:1 pref=c:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+DT containUC:1 suf=e:1
+JJ prevT=DT:1
+NNP prevT=JJ:1 containUC:1 suf=r:1
+NN prevT=NNP:1 nextW=comma:1 next2W=comma:1 pref=c:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBN prevT=comma:1 prevW=comma:1 pref=c:1 suf=d:1
+IN prev2W=comma:1
+NN prevT=IN:1 pref=a:1 suf=d:1
+NN prevT=NN:1 pref=a:1 suf=y:1
+NNP prevT=NN:1 containUC:1
+CC prevT=NNP:1
+NNP containUC:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=.:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBZ prevT=comma:1 prevW=comma:1 suf=s:1
+NNP prev2W=comma:1 containUC:1 suf=y:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CD prevT=comma:1 prevW=comma:1 pref=o:1 suf=e:1
+IN prev2W=comma:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+RBS suf=t:1
+JJ suf=e:1
+NN prevT=JJ:1 pref=i:1 suf=t:1
+NNS prevT=NN:1 nextW=comma:1 next2W=comma:1 suf=s:1
+comma prevT=NNS:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBG prevT=comma:1 prevW=comma:1
+RB prev2W=comma:1 suf=y:1
+JJ pref=b:1
+. prevT=JJ:1 suf=.:1
+VBN containUC:1 suf=d:1
+RB suf=t:1
+IN nextW=the:1 next2W=the:1 pref=a:1 suf=s:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+VBD prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 suf=d:1
+NN nextW=comma:1 next2W=comma:1 suf=y:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+PRP prevT=comma:1 prevW=comma:1 pref=i:1 suf=t:1
+VBZ prev2W=comma:1 pref=o:1 suf=s:1
+NNP containUC:1 suf=.:1
+NNP prevT=NNP:1 containUC:1
+NN prevT=NNP:1 nextW=comma:1 next2W=comma:1 pref=a:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+`` prevT=comma:1 prevW=comma:1
+PRP prev2W=comma:1 containUC:1 suf=e:1
+VBP nextW=the:1 next2W=the:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=t:1
+RB prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=e:1
+IN pref=a:1 suf=s:1
+VBG prevT=IN:1
+IN pref=t:1 pref=th:1 pref=th:1
+DT prevT=IN:1 pref=a:1 suf=a:1
+RB prevT=DT:1 prevTwoTags=IN+DT:1 suf=y:1
+JJ
+NN prevT=JJ:1 pref=c:1 suf=e:1
+: prevT=NN:1 suf=.:1
+. suf=.:1
+PRP containUC:1 suf=e:1
+VBP pref=c:1 suf=e:1 pref=co:1 pref=co:1
+TO pref=t:1 suf=o:1
+VB
+IN nextW=the:1 next2W=the:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=t:1
+VBZ prevT=NN:1 pref=i:1 suf=s:1
+RB nextW=the:1 next2W=the:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=e:1
+TO prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=t:1 suf=o:1
+VB pref=b:1 suf=e:1
+IN suf=r:1
+JJ prevT=IN:1
+NN prevT=JJ:1 pref=a:1 suf=n:1
+. prevT=NN:1 suf=.:1
+''
+DT containUC:1 suf=e:1
+NN prevT=DT:1 suf=t:1
+VBD prevT=NN:1 prevTwoTags=DT+NN:1 suf=s:1
+VBN suf=d:1
+TO pref=t:1 suf=o:1
+VB pref=a:1 suf=r:1
+CD pref=t:1 suf=e:1 pref=th:1 pref=th:1
+NNS pref=t:1 suf=s:1
+IN prevT=NNS:1 pref=o:1 suf=n:1
+NNP prevT=IN:1 containUC:1
+JJ prevT=NNP:1 suf=t:1
+NN prevT=JJ:1 suf=t:1
+. prevT=NN:1 suf=.:1
+NNP containUC:1 suf=r:1
+VBD prevT=NNP:1 pref=c:1 suf=d:1 pref=co:1 pref=co:1
+DT pref=a:1 suf=n:1
+RB prevT=DT:1 suf=n:1
+JJR suf=r:1
+NN nextW=comma:1 next2W=comma:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBG prevT=comma:1 prevW=comma:1
+JJ prev2W=comma:1
+NNS prevT=JJ:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+RB nextW=comma:1 next2W=comma:1 containUC:1 suf=d:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+PRP prevT=comma:1 prevW=comma:1 pref=i:1 suf=t:1
+VBD prev2W=comma:1 suf=d:1
+RP pref=o:1 suf=n:1
+RB suf=t:1
+VBG nextW=the:1 next2W=the:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevW=the:1 pref=c:1 suf=s:1
+WP prevT=NNS:1 prev2W=the:1 suf=o:1
+VBP pref=a:1 suf=e:1
+PRP$ pref=i:1 suf=s:1
+NN suf=e:1
+TO prevT=NN:1 pref=t:1 suf=o:1
+VB
+DT pref=t:1 suf=t:1 pref=th:1 pref=th:1
+NN prevT=DT:1 suf=y:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+. prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=.:1
+``
+PRP containUC:1 suf=e:1
+VBP suf=e:1
+VBG nextW=the:1 next2W=the:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJS prevT=DT:1 prevW=the:1 suf=t:1
+NN prev2W=the:1 pref=t:1 pref=th:1 pref=th:1
+IN prevT=NN:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+NN prevT=IN:1 pref=a:1 suf=e:1
+MD prevT=NN:1 pref=c:1 suf=n:1
+VB suf=o:1
+VBZ pref=i:1 suf=s:1
+TO pref=t:1 suf=o:1
+VB nextW=the:1 next2W=the:1 suf=e:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=t:1
+VB prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=o:1
+RB suf=n:1
+CC pref=a:1 suf=d:1
+VB
+NN nextW=comma:1 next2W=comma:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+WDT prevT=comma:1 prevW=comma:1
+RB prev2W=comma:1 suf=t:1
+VBZ nextW=the:1 next2W=the:1 suf=s:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevW=the:1 suf=s:1
+IN prevT=NNS:1 prev2W=the:1 suf=n:1
+RBR prevT=IN:1 nextW=comma:1 next2W=comma:1 suf=r:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+VBZ prev2W=comma:1 suf=s:1
+NNP containUC:1 suf=n:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=e:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 containUC:1 suf=r:1
+POS prevT=NNP:1 prev2W=comma:1 suf=s:1
+NN suf=r:1
+IN prevT=NN:1 pref=o:1
+NN prevT=IN:1 pref=a:1
+. prevT=NN:1 suf=.:1
+``
+IN containUC:1
+PRP prevT=IN:1
+VBD pref=o:1 suf=d:1
+PRP pref=i:1 suf=t:1
+CC pref=a:1 suf=d:1
+VBD suf=d:1
+PRP pref=i:1 suf=t:1
+NNP nextW=comma:1 next2W=comma:1 containUC:1 suf=y:1
+comma prevT=NNP:1 nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevW=the:1 prev2W=comma:1 pref=t:1 suf=e:1
+NN prevT=JJ:1 prev2W=the:1 suf=e:1
+VBZ prevT=NN:1 suf=s:1
+RB suf=t:1
+VBD pref=c:1 suf=d:1
+. suf=.:1
+''
+PRP containUC:1 suf=e:1
+VBZ nextW=comma:1 next2W=comma:1 pref=a:1 suf=s:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+`` prevT=comma:1 prevW=comma:1
+DT prev2W=comma:1 containUC:1 suf=s:1
+VBZ prevT=DT:1 pref=i:1 suf=s:1
+RB suf=t:1
+CD
+VBN suf=d:1
+. suf=.:1
+''
+IN nextW=the:1 next2W=the:1 containUC:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+VBG prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1
+CC pref=a:1 suf=d:1
+RB pref=t:1 suf=n:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBG pref=c:1
+RB
+RBR suf=e:1
+IN pref=t:1 suf=n:1 pref=th:1 pref=th:1
+CD prevT=IN:1
+NNS suf=s:1
+NN prevT=NNS:1 nextW=comma:1 next2W=comma:1 suf=y:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NN prevT=comma:1 prevW=comma:1 pref=i:1 suf=t:1
+NNS prevT=NN:1 prev2W=comma:1 suf=s:1
+VBD prevT=NNS:1 suf=d:1
+TO pref=t:1 suf=o:1
+RB pref=c:1 suf=y:1 pref=co:1 pref=co:1
+VB suf=e:1
+PRP$ pref=t:1 suf=r:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN pref=a:1
+. prevT=NN:1 suf=.:1
+IN containUC:1 suf=t:1
+NNP prevT=IN:1 containUC:1 suf=n:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=n:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNS prevT=comma:1 prevW=comma:1 suf=s:1
+VBD prevT=NNS:1 prev2W=comma:1 pref=c:1 suf=d:1
+JJ
+JJ prevT=JJ:1
+NNS prevT=JJ:1 pref=c:1 suf=s:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=NNS:1 containUC:1 suf=y:1
+NN prevT=NNP:1 suf=t:1
+CC prevT=NN:1 pref=a:1 suf=d:1
+IN nextW=the:1 next2W=the:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 nextW=comma:1 next2W=comma:1 suf=d:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+RB prevT=comma:1 prevW=comma:1 pref=t:1 suf=n:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBD prev2W=comma:1 suf=d:1
+TO pref=t:1 suf=o:1
+VB
+NN suf=y:1
+NN prevT=NN:1 pref=a:1 suf=n:1
+. prevT=NN:1 suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 suf=n:1
+VBD prevT=NN:1 prevTwoTags=DT+NN:1 suf=d:1
+VBN pref=b:1 suf=n:1
+TO pref=t:1 suf=o:1
+VB suf=e:1
+CD pref=o:1 suf=e:1
+IN pref=o:1
+NNP prevT=IN:1 containUC:1 suf=n:1
+POS prevT=NNP:1 suf=s:1
+JJ nextW=comma:1 next2W=comma:1
+comma prevT=JJ:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+JJ prevT=comma:1 prevW=comma:1 pref=b:1 suf=e:1
+`` prevT=JJ:1 prev2W=comma:1
+WRB containUC:1 suf=e:1
+PRP containUC:1 suf=e:1
+VBP containUC:1 suf=d:1
+''
+NNS nextW=comma:1 next2W=comma:1 pref=c:1 suf=s:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+comma prevT=NNS:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+WDT prevT=comma:1 prevW=comma:1
+VBP prev2W=comma:1 suf=e:1
+VBN pref=b:1 suf=n:1
+VBG
+RB pref=o:1 suf=y:1
+IN pref=i:1 suf=n:1
+NN prevT=IN:1 suf=e:1
+TO prevT=NN:1 pref=t:1 suf=o:1
+NN suf=s:1
+NNS prevT=NN:1 suf=s:1
+IN prevT=NNS:1 suf=e:1
+CD prevT=IN:1
+. suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 pref=a:1 suf=d:1
+MD prevT=NN:1 prevTwoTags=DT+NN:1 suf=d:1
+VB suf=e:1
+VBN suf=n:1
+IN nextW=the:1 next2W=the:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1 suf=d:1
+NNP prevT=NNP:1 prev2W=the:1 containUC:1 suf=s:1
+NN prevT=NNP:1 nextW=comma:1 next2W=comma:1 pref=t:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBG prevT=comma:1 prevW=comma:1 nextW=the:1 next2W=the:1
+DT prev2W=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=t:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=NN:1 pref=o:1
+NNP prevT=IN:1 containUC:1 suf=n:1
+POS prevT=NNP:1 suf=s:1
+JJ
+NN prevT=JJ:1 pref=a:1 suf=d:1
+NN prevT=NN:1 nextW=comma:1 next2W=comma:1 pref=c:1 suf=n:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+`` prevT=comma:1 prevW=comma:1
+NN prev2W=comma:1 containUC:1
+IN prevT=NN:1 pref=b:1 suf=y:1
+NN prevT=IN:1 containUC:1 suf=e:1
+. prevT=NN:1 suf=.:1
+''
+CC containUC:1 suf=t:1
+IN pref=i:1 suf=n:1
+DT prevT=IN:1 pref=a:1 suf=a:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 nextW=the:1 next2W=the:1 pref=a:1 suf=r:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+VBD prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 suf=d:1
+NN nextW=comma:1 next2W=comma:1 suf=y:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 containUC:1 suf=n:1
+NNS prevT=NNP:1 prev2W=comma:1 suf=s:1
+VBD prevT=NNS:1 suf=d:1
+RB suf=t:1
+TO pref=t:1 suf=o:1
+VB suf=o:1
+RB pref=a:1 suf=d:1
+IN nextW=the:1 next2W=the:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=a:1 suf=d:1
+. prevT=NN:1 suf=.:1
+``
+PRP containUC:1 suf=e:1
+VBP suf=o:1
+RB suf=t:1
+VB pref=t:1 pref=th:1 pref=th:1
+IN pref=a:1 suf=t:1
+DT prevT=IN:1 pref=t:1 suf=s:1 pref=th:1 pref=th:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 suf=t:1
+NN prevT=NN:1 prevTwoTags=DT+NN:1 pref=a:1
+VBZ prevT=NN:1 suf=s:1
+TO pref=t:1 suf=o:1
+VB pref=b:1 suf=e:1
+VBD suf=d:1
+. suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 suf=t:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 suf=s:1
+TO pref=t:1 suf=o:1
+VB pref=b:1 suf=e:1
+VBG
+RP pref=o:1 suf=t:1
+:
+PRP suf=e:1
+VBP suf=e:1
+VBG pref=t:1
+DT pref=a:1 suf=a:1
+JJ prevT=DT:1 suf=e:1
+NN prevT=JJ:1 nextW=comma:1 next2W=comma:1 pref=a:1 suf=e:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+VBZ prev2W=comma:1 suf=s:1
+NNP containUC:1 suf=n:1
+NNP prevT=NNP:1 containUC:1 suf=.:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=t:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+JJ prevT=comma:1 prevW=comma:1 suf=e:1
+NN prevT=JJ:1 prev2W=comma:1 suf=e:1
+NN prevT=NN:1 suf=t:1
+IN prevT=NN:1 pref=o:1
+NN prevT=IN:1
+. prevT=NN:1 suf=.:1
+IN containUC:1 suf=n:1
+DT prevT=IN:1 pref=a:1 suf=y:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 nextW=comma:1 next2W=comma:1 pref=c:1 suf=e:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 prev2W=comma:1 pref=b:1 suf=e:1
+NNS prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+VBP prevT=NNS:1 pref=a:1 suf=e:1
+RB pref=c:1 suf=y:1
+VBG
+RBR suf=r:1
+TO pref=t:1 suf=o:1
+VB pref=c:1 suf=e:1
+JJ
+NNS prevT=JJ:1 pref=a:1 suf=s:1
+IN prevT=NNS:1 pref=t:1 suf=n:1 pref=th:1 pref=th:1
+PRP prevT=IN:1 pref=t:1 suf=y:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBD suf=d:1
+IN nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=o:1
+CD prevT=IN:1
+. suf=.:1
+CC containUC:1 suf=t:1
+PRP pref=i:1 suf=t:1
+VBZ suf=s:1
+TO pref=t:1 suf=o:1
+VB pref=b:1 suf=e:1
+VBN suf=n:1
+IN suf=r:1
+PRP$ prevT=IN:1 pref=t:1 suf=r:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS pref=a:1 suf=s:1
+MD prevT=NNS:1
+VB pref=b:1 suf=e:1
+DT pref=a:1 suf=y:1
+RBR prevT=DT:1 suf=e:1
+JJ suf=e:1
+. prevT=JJ:1 suf=.:1
+IN containUC:1 suf=n:1
+CD prevT=IN:1 nextW=comma:1 next2W=comma:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=comma:1 prevW=comma:1 suf=e:1
+DT prevT=IN:1 prev2W=comma:1 pref=a:1 suf=a:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 pref=b:1 suf=e:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 pref=o:1
+NNS prevT=IN:1 pref=a:1 suf=s:1
+IN prevT=NNS:1
+JJS prevT=IN:1 suf=t:1
+IN nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=r:1
+NN prevT=JJ:1 prev2W=the:1 pref=i:1 suf=t:1
+NNS prevT=NN:1 nextW=comma:1 next2W=comma:1 suf=s:1
+comma prevT=NNS:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNS prevT=comma:1 prevW=comma:1 pref=i:1 suf=s:1
+VBD prevT=NNS:1 prev2W=comma:1 suf=n:1
+IN nextW=the:1 next2W=the:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+FW prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=n:1
+FW suf=e:1
+. suf=.:1
+RB nextW=the:1 next2W=the:1 containUC:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevW=the:1 suf=s:1
+MD prevT=NNS:1 prev2W=the:1 suf=t:1
+VB pref=t:1 suf=y:1
+PRP$ pref=t:1 suf=r:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJS suf=t:1
+TO pref=t:1 suf=o:1
+VB suf=e:1
+DT pref=t:1 suf=t:1 pref=th:1 pref=th:1
+NN prevT=DT:1 pref=a:1
+MD prevT=NN:1 prevTwoTags=DT+NN:1 pref=c:1 suf=n:1
+VB
+DT pref=t:1 suf=s:1 pref=th:1 pref=th:1
+NN prevT=DT:1 pref=t:1 suf=e:1
+RP prevT=NN:1 prevTwoTags=DT+NN:1 pref=a:1 suf=d:1
+. suf=.:1
+NN containUC:1 suf=d:1
+NNS prevT=NN:1 containUC:1 suf=s:1
+: prevT=NNS:1 suf=.:1
+. suf=.:1
+NNP containUC:1
+NNP prevT=NNP:1 containUC:1
+colon prevT=NNP:1 pref=c:1 suf=n:1 pref=co:1 pref=co:1
+NNP containUC:1 suf=d:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=n:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+JJ prevT=comma:1 prevW=comma:1 suf=r:1
+NN prevT=JJ:1 prev2W=comma:1 pref=c:1 suf=n:1
+IN prevT=NN:1 pref=o:1
+NNP prevT=IN:1 containUC:1 suf=a:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=a:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 containUC:1 suf=e:1
+NNP prevT=NNP:1 prev2W=comma:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=n:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBD prevT=comma:1 prevW=comma:1 suf=d:1
+DT prev2W=comma:1 pref=a:1 suf=n:1
+NN prevT=DT:1 pref=a:1 suf=t:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 pref=i:1 suf=n:1
+NN prevT=IN:1 suf=e:1
+TO prevT=NN:1 pref=t:1 suf=o:1
+VB pref=a:1 suf=e:1
+DT pref=a:1 suf=a:1
+JJ prevT=DT:1 suf=y:1
+NN prevT=JJ:1 suf=e:1
+IN prevT=NN:1 pref=i:1 suf=n:1
+NNP prevT=IN:1 containUC:1 suf=d:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=a:1 suf=a:1
+JJ prevT=DT:1 prev2W=comma:1
+NNP prevT=JJ:1 containUC:1 suf=n:1
+NN prevT=NNP:1
+. prevT=NN:1 suf=.:1
+NNS containUC:1 suf=s:1
+VBD prevT=NNS:1 suf=e:1
+RB suf=t:1
+VBN suf=d:1
+. suf=.:1
+NNP containUC:1 suf=.:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=n:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+WP prevT=comma:1 prevW=comma:1 suf=o:1
+VBD prev2W=comma:1 suf=d:1
+PRP$ suf=s:1
+NNP containUC:1 suf=a:1
+NNP prevT=NNP:1 containUC:1 suf=a:1
+NN prevT=NNP:1 suf=t:1
+IN prevT=NN:1 pref=i:1 suf=n:1
+NNP prevT=IN:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=r:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBZ prevT=comma:1 prevW=comma:1 pref=b:1 suf=s:1
+NN prev2W=comma:1 pref=c:1 suf=n:1
+CC prevT=NN:1 pref=a:1 suf=d:1
+JJ pref=c:1
+NN prevT=JJ:1 suf=e:1
+IN prevT=NN:1 pref=o:1
+NNP prevT=IN:1 containUC:1 suf=d:1
+. prevT=NNP:1 suf=.:1
+NNP containUC:1 suf=n:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=t:1
+comma prevT=NNP:1 nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 prev2W=comma:1 pref=a:1 suf=y:1
+POS prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+NN suf=t:1
+CC prevT=NN:1 pref=a:1 suf=d:1
+JJ pref=c:1
+NN prevT=JJ:1 nextW=comma:1 next2W=comma:1 suf=e:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+MD prevT=comma:1 prevW=comma:1
+VB prev2W=comma:1 nextW=the:1 next2W=the:1 suf=n:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 pref=t:1 suf=e:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=o:1
+NN prevT=IN:1 suf=t:1
+. prevT=NN:1 suf=.:1
+NNP nextW=comma:1 next2W=comma:1 containUC:1 suf=y:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 containUC:1 suf=d:1
+POS prevT=NNP:1 prev2W=comma:1 suf=s:1
+NNP nextW=comma:1 next2W=comma:1 containUC:1 suf=.:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 containUC:1
+NNP prevT=NNP:1 prev2W=comma:1 nextW=comma:1 next2W=comma:1 containUC:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=.:1
+comma prevT=NNP:1 prev2W=comma:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBD prevT=comma:1 prevW=comma:1 suf=d:1
+NNP prev2W=comma:1 containUC:1 suf=d:1
+TO prevT=NNP:1 pref=t:1 suf=o:1
+VB suf=e:1
+PRP$ pref=i:1 suf=s:1
+VBN suf=d:1
+$
+CD
+CD suf=n:1
+JJ pref=c:1 suf=e:1 pref=co:1 pref=co:1
+NN prevT=JJ:1 pref=a:1 suf=d:1
+NN prevT=NN:1 pref=a:1 suf=t:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 suf=r:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=d:1
+comma prevT=NNP:1 prev2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=.:1
+comma prevT=NNP:1 prev2W=comma:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NN prevT=comma:1 prevW=comma:1 pref=a:1 suf=a:1
+. prevT=NN:1 prev2W=comma:1 suf=.:1
+DT containUC:1 suf=t:1
+NN prevT=DT:1 pref=a:1 suf=t:1
+VBD prevT=NN:1 prevTwoTags=DT+NN:1 suf=d:1
+VBN pref=b:1 suf=n:1
+VBN suf=d:1
+IN pref=b:1 suf=y:1
+NNP prevT=IN:1 containUC:1 suf=a:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=a:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 containUC:1 suf=e:1
+NNP prevT=NNP:1 prev2W=comma:1 containUC:1
+. prevT=NNP:1 suf=.:1
+NN containUC:1
+NNS prevT=NN:1 containUC:1
+colon prevT=NNS:1 pref=c:1 suf=n:1 pref=co:1 pref=co:1
+DT containUC:1
+JJ prevT=DT:1 suf=e:1
+NN prevT=JJ:1 pref=a:1 suf=d:1
+NN prevT=NN:1 suf=t:1
+TO prevT=NN:1 pref=t:1 suf=o:1
+NNP containUC:1 suf=s:1
+NNP prevT=NNP:1 containUC:1
+POS prevT=NNP:1 suf=s:1
+JJ
+`` prevT=JJ:1
+NNP containUC:1 suf=e:1
+NNP prevT=NNP:1 containUC:1 suf=e:1
+'' prevT=NNP:1
+NN pref=i:1 suf=e:1
+VBZ prevT=NN:1 pref=c:1 suf=s:1
+IN pref=o:1 suf=n:1
+NN prevT=IN:1 pref=b:1 suf=s:1
+NNS prevT=NN:1 suf=s:1
+TO prevT=NNS:1 pref=t:1 suf=o:1
+VB suf=e:1
+PRP$ pref=t:1 suf=r:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN pref=c:1 suf=t:1
+TO prevT=NN:1 pref=t:1 suf=o:1
+VB
+VB nextW=the:1 next2W=the:1 suf=e:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=n:1
+POS prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+NN suf=n:1
+NN prevT=NN:1 pref=c:1 suf=s:1
+. prevT=NN:1 suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 nextW=comma:1 next2W=comma:1 suf=t:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJS prevT=DT:1 prevW=the:1 prev2W=comma:1 suf=t:1
+RB prev2W=the:1 suf=r:1
+IN nextW=the:1 next2W=the:1 suf=r:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 nextW=comma:1 next2W=comma:1 suf=e:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBZ prevT=comma:1 prevW=comma:1 pref=i:1 suf=s:1
+NNS prev2W=comma:1 pref=a:1 suf=s:1
+IN prevT=NNS:1
+CD prevT=IN:1
+JJ pref=c:1 suf=e:1 pref=co:1 pref=co:1
+NNS prevT=JJ:1 pref=a:1 suf=s:1
+CC prevT=NNS:1 pref=a:1 suf=d:1
+NNS suf=s:1
+RP prevT=NNS:1 pref=o:1
+DT pref=a:1 suf=a:1
+JJ prevT=DT:1 pref=t:1 suf=r:1
+NNP prevT=JJ:1 containUC:1 suf=s:1
+NNP prevT=NNP:1 containUC:1
+NN prevT=NNP:1 pref=i:1 suf=e:1
+IN prevT=NN:1 pref=o:1 suf=n:1
+NN prevT=IN:1 suf=n:1
+. prevT=NN:1 suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 suf=e:1
+MD prevT=NN:1 prevTwoTags=DT+NN:1
+VB suf=e:1
+CD
+NN
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=s:1
+NNS prevT=JJ:1 prev2W=the:1 suf=s:1
+IN prevT=NNS:1 nextW=the:1 next2W=the:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=a:1 suf=s:1
+NNS prevT=IN:1 suf=s:1
+TO prevT=NNS:1 pref=t:1 suf=o:1
+JJ pref=i:1 suf=e:1
+NNS prevT=JJ:1 pref=t:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+PRP containUC:1
+VBP
+WP nextW=the:1 next2W=the:1 suf=t:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=o:1
+NNS prevT=IN:1 pref=a:1 suf=s:1
+VBZ prevT=NNS:1 nextW=comma:1 next2W=comma:1 pref=i:1 suf=s:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBP prevT=comma:1 prevW=comma:1 suf=o:1
+RB prev2W=comma:1 suf=t:1
+PRP
+.
+PRP containUC:1 suf=t:1
+VBZ suf=s:1
+WP suf=t:1
+LS
+-RRB- containUC:1
+VBZ suf=s:1
+WRB suf=y:1
+PRP suf=e:1
+VBP pref=a:1 suf=e:1
+JJ nextW=comma:1 next2W=comma:1 suf=e:1
+comma prevT=JJ:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+RB prevT=comma:1 prevW=comma:1 nextW=comma:1 next2W=comma:1
+comma prev2W=comma:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+PRP prevT=comma:1 prevW=comma:1 pref=o:1 suf=s:1
+RB prev2W=comma:1 suf=r:1
+IN pref=t:1 suf=n:1 pref=th:1 pref=th:1
+NNP prevT=IN:1 containUC:1 suf=o:1
+NNP prevT=NNP:1 containUC:1 suf=n:1
+: prevT=NNP:1
+LS
+-RRB- containUC:1
+VBZ pref=c:1 suf=s:1
+IN pref=t:1 suf=t:1 pref=th:1 pref=th:1
+PRP prevT=IN:1 pref=i:1 suf=t:1
+VBZ suf=s:1
+JJ suf=e:1
+TO prevT=JJ:1 pref=t:1 suf=o:1
+VB suf=n:1
+IN pref=i:1 suf=n:1
+DT prevT=IN:1 pref=a:1 suf=a:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 suf=e:1
+WDT prevT=NN:1 prevTwoTags=DT+NN:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+VBZ pref=a:1 suf=s:1
+CD pref=t:1 suf=o:1
+NNS suf=t:1
+RB prevT=NNS:1
+:
+CC pref=a:1 suf=d:1
+LS
+-RRB- containUC:1
+VBZ suf=s:1
+IN pref=t:1 suf=t:1 pref=th:1 pref=th:1
+CD prevT=IN:1
+NNS suf=s:1
+VBN prevT=NNS:1 suf=d:1
+IN pref=b:1 suf=e:1
+CD prevT=IN:1
+NNS suf=s:1
+MD prevT=NNS:1 suf=d:1
+VB suf=e:1
+CD
+JJ suf=e:1
+NN prevT=JJ:1
+CC prevT=NN:1
+NN
+NNS prevT=NN:1 pref=t:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+NN nextW=comma:1 next2W=comma:1 containUC:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+NN prevT=DT:1 prev2W=comma:1 suf=e:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+NN prevT=JJ:1 prev2W=the:1 nextW=comma:1 next2W=comma:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBZ prevT=comma:1 prevW=comma:1 nextW=the:1 next2W=the:1 pref=i:1 suf=s:1
+DT prev2W=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevW=the:1
+NN prevT=JJ:1 prev2W=the:1 suf=t:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 nextW=comma:1 next2W=comma:1 suf=n:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 nextW=the:1 next2W=the:1 pref=a:1 suf=d:1
+DT prev2W=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevW=the:1 suf=n:1
+JJ prevT=JJ:1 prev2W=the:1 pref=o:1
+NN prevT=JJ:1
+VBD prevT=NN:1 pref=c:1 suf=t:1
+RP
+IN nextW=the:1 next2W=the:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1 suf=n:1
+NNP prevT=NNP:1 prev2W=the:1 containUC:1 suf=o:1
+NNP prevT=NNP:1 containUC:1 suf=s:1
+IN prevT=NNP:1 nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1 suf=d:1
+NNP prevT=NNP:1 prev2W=the:1 containUC:1 suf=s:1
+JJ prevT=NNP:1 suf=t:1
+NN prevT=JJ:1 suf=d:1
+. prevT=NN:1 suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 pref=t:1
+WDT prevT=NN:1 prevTwoTags=DT+NN:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+VBD suf=d:1
+NNS suf=s:1
+IN prevT=NNS:1 nextW=the:1 next2W=the:1 pref=b:1 suf=y:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=b:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 nextW=the:1 next2W=the:1 pref=o:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1 suf=o:1
+NNP prevT=NNP:1 prev2W=the:1 containUC:1 suf=s:1
+IN prevT=NNP:1 nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1
+NNP prevT=NNP:1 prev2W=the:1 containUC:1 suf=e:1
+NNS prevT=NNP:1 suf=s:1
+VBD prevT=NNS:1 suf=s:1
+VBN suf=d:1
+TO pref=t:1 suf=o:1
+RB suf=t:1
+CD pref=o:1 suf=e:1
+IN pref=i:1 suf=n:1
+CD prevT=IN:1 pref=t:1 suf=o:1
+NNS suf=s:1
+IN prevT=NNS:1 nextW=the:1 next2W=the:1 pref=b:1 suf=y:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+NNP prevT=JJ:1 prev2W=the:1 containUC:1 suf=d:1
+NNP prevT=NNP:1 containUC:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 suf=s:1
+comma prevT=NNP:1 nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 prev2W=comma:1
+WDT prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+VBD suf=d:1
+VBN pref=b:1 suf=n:1
+VBN suf=e:1
+RP suf=o:1
+RB suf=y:1
+IN nextW=the:1 next2W=the:1 pref=b:1 suf=y:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1 suf=s:1
+NNP prevT=NNP:1 prev2W=the:1 containUC:1 suf=s:1
+NNP prevT=NNP:1 containUC:1 suf=s:1
+CC prevT=NNP:1 pref=a:1 suf=d:1
+NNP containUC:1
+NNP prevT=NNP:1 containUC:1 suf=r:1
+IN prevT=NNP:1 pref=i:1 suf=n:1
+JJ prevT=IN:1 suf=t:1
+NN prevT=JJ:1 suf=r:1
+POS prevT=NN:1 suf=s:1
+NN pref=t:1 suf=t:1
+. prevT=NN:1 suf=.:1
+RB nextW=comma:1 next2W=comma:1 containUC:1 suf=r:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+JJ prevT=comma:1 prevW=comma:1
+IN prevT=JJ:1 prev2W=comma:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=e:1
+VBD prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+VBN pref=a:1 suf=d:1
+IN pref=b:1 suf=y:1
+NNP prevT=IN:1 containUC:1
+NNP prevT=NNP:1 suf=s:1
+WP prevT=NNP:1 suf=o:1
+VBD suf=d:1
+DT suf=e:1
+VBG prevT=DT:1 pref=c:1
+RP
+TO pref=t:1 suf=o:1
+VB suf=o:1
+. suf=.:1
+IN containUC:1 suf=n:1
+NN prevT=IN:1 suf=e:1
+CD prevT=NN:1 nextW=comma:1 next2W=comma:1 pref=t:1 suf=o:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=comma:1 prevW=comma:1 pref=o:1 suf=n:1
+DT prevT=IN:1 prev2W=comma:1 pref=a:1 suf=a:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 pref=c:1 pref=co:1 pref=co:1
+NNP prevT=JJ:1 containUC:1 suf=y:1
+NN prevT=NNP:1
+IN prevT=NN:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=s:1 pref=th:1 pref=th:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 suf=d:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 pref=o:1
+JJ prevT=IN:1
+NN prevT=JJ:1 nextW=comma:1 next2W=comma:1 pref=a:1 suf=n:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=a:1 suf=a:1
+NN prevT=DT:1 prev2W=comma:1 suf=t:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBG prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=c:1
+RP prev2W=the:1
+VBD suf=s:1
+VBN suf=e:1
+IN nextW=the:1 next2W=the:1 pref=b:1 suf=y:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1
+NNP prevT=NNP:1 prev2W=the:1 suf=s:1
+NN prevT=NNP:1 nextW=comma:1 next2W=comma:1 pref=c:1 suf=r:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNP prevT=comma:1 prevW=comma:1 containUC:1 suf=y:1
+NNP prevT=NNP:1 prev2W=comma:1 containUC:1
+. prevT=NNP:1 suf=.:1
+PRP containUC:1 suf=e:1
+VBD suf=t:1
+DT pref=a:1 suf=a:1
+CD prevT=DT:1
+NN
+IN prevT=NN:1
+NNP prevT=IN:1 containUC:1
+NNP prevT=NNP:1 containUC:1
+IN prevT=NNP:1 nextW=the:1 next2W=the:1 pref=i:1 suf=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=d:1
+NNS prevT=JJ:1 prev2W=the:1 suf=s:1
+IN prevT=NNS:1 pref=i:1 suf=n:1
+NN prevT=IN:1 pref=i:1
+CD prevT=NN:1 suf=r:1
+TO pref=t:1 suf=o:1
+VB
+PRP$ suf=s:1
+NN pref=t:1
+POS prevT=NN:1 suf=s:1
+NN suf=d:1
+IN prevT=NN:1
+CD prevT=IN:1
+TO pref=t:1 suf=o:1
+DT pref=a:1 suf=a:1
+JJ prevT=DT:1 suf=e:1
+CD prevT=JJ:1 nextW=comma:1 next2W=comma:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+WRB prevT=comma:1 prevW=comma:1 suf=e:1
+PRP prev2W=comma:1 pref=i:1 suf=t:1
+VBD suf=d:1
+. suf=.:1
+RB containUC:1 suf=o:1
+WP suf=t:1
+IN pref=i:1
+NNP prevT=IN:1 containUC:1
+VBD prevT=NNP:1 suf=d:1
+VBN
+RB suf=t:1
+CD suf=n:1
+NN suf=e:1
+NNS prevT=NN:1 suf=s:1
+IN prevT=NNS:1 pref=i:1 suf=n:1
+CD prevT=IN:1
+JJ suf=n:1
+NNS prevT=JJ:1 nextW=comma:1 next2W=comma:1 suf=s:1
+comma prevT=NNS:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 pref=a:1 suf=d:1
+VBD prev2W=comma:1 pref=b:1 suf=d:1
+IN nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+NN prevT=JJ:1 prev2W=the:1 suf=n:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1
+NNP prevT=NNP:1 prev2W=the:1 suf=s:1
+NN prevT=NNP:1
+. prevT=NN:1 suf=.:1
+``
+IN containUC:1
+PRP prevT=IN:1
+VBP suf=t:1
+PRP$ suf=r:1
+NN nextW=comma:1 next2W=comma:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 pref=a:1 suf=d:1
+VBP prev2W=comma:1 pref=t:1 suf=e:1
+DT pref=a:1 suf=a:1
+JJ prevT=DT:1 suf=d:1
+NN prevT=JJ:1 nextW=comma:1 next2W=comma:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NN prevT=comma:1 prevW=comma:1 pref=a:1
+MD prevT=NN:1 prev2W=comma:1 pref=c:1 suf=n:1
+VB nextW=comma:1 next2W=comma:1 suf=n:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+PRP prev2W=comma:1 suf=e:1
+RBR suf=r:1
+VBD suf=d:1
+. suf=.:1
+IN containUC:1 suf=n:1
+NNP prevT=IN:1 containUC:1 suf=y:1
+NN prevT=NNP:1 nextW=comma:1 next2W=comma:1 suf=t:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+RB prevT=comma:1 prevW=comma:1 suf=e:1
+DT prev2W=comma:1 pref=a:1 suf=a:1
+JJ prevT=DT:1
+IN prevT=JJ:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=b:1 suf=s:1
+IN prevT=NNS:1 prev2W=the:1 pref=i:1 suf=n:1
+NN prevT=IN:1 suf=n:1
+CC prevT=NN:1 pref=a:1 suf=d:1
+NN suf=d:1
+VBD prevT=NN:1 suf=d:1
+RP pref=a:1 suf=y:1
+NNS suf=s:1
+TO prevT=NNS:1 pref=t:1 suf=o:1
+VB nextW=the:1 next2W=the:1 suf=e:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 suf=n:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=o:1
+JJ prevT=IN:1 suf=t:1
+CC prevT=JJ:1 nextW=comma:1 next2W=comma:1 pref=a:1 suf=d:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 suf=o:1
+NN prevT=DT:1 prev2W=comma:1 nextW=comma:1 next2W=comma:1 suf=t:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+JJ prevT=comma:1 prevW=comma:1 suf=e:1
+NNS prevT=JJ:1 prev2W=comma:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+NNP containUC:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=e:1
+comma prevT=NNP:1 nextW=the:1 next2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevW=the:1 prev2W=comma:1 nextW=comma:1 next2W=comma:1 pref=b:1
+comma prevT=JJ:1 prev2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+JJ prevT=comma:1 prevW=comma:1 suf=d:1
+NNP prevT=JJ:1 prev2W=comma:1 containUC:1 suf=d:1
+JJ prevT=NNP:1 suf=t:1
+NN prevT=JJ:1 nextW=comma:1 next2W=comma:1 pref=b:1 suf=n:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBD prevT=comma:1 prevW=comma:1 suf=d:1
+CD prev2W=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1
+NNS suf=s:1
+IN prevT=NNS:1 pref=i:1 suf=n:1
+CD prevT=IN:1 suf=r:1
+NN pref=a:1 suf=t:1
+NNS prevT=NN:1 nextW=comma:1 next2W=comma:1 pref=b:1 suf=s:1
+comma prevT=NNS:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CD prevT=comma:1 prevW=comma:1 pref=t:1 suf=o:1
+JJR prev2W=comma:1 suf=e:1
+IN pref=t:1 suf=n:1 pref=th:1 pref=th:1
+PRP prevT=IN:1 suf=e:1
+VBD suf=d:1
+VBN suf=d:1
+IN nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=e:1
+NNP prevT=JJ:1 prev2W=the:1 containUC:1 suf=r:1
+NN prevT=NNP:1 suf=s:1
+IN prevT=NN:1 pref=i:1 suf=n:1
+WDT prevT=IN:1
+PRP suf=e:1
+MD suf=d:1
+VBN suf=e:1
+NN
+. prevT=NN:1 suf=.:1
+DT containUC:1 suf=e:1
+NNS prevT=DT:1 containUC:1 suf=n:1
+VBG prevT=NNS:1 pref=b:1
+NNS containUC:1 suf=.:1
+CD prevT=NNS:1
+IN pref=t:1 pref=th:1 pref=th:1
+CD prevT=IN:1 nextW=comma:1 next2W=comma:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+JJ prevT=comma:1 prevW=comma:1 nextW=the:1 next2W=the:1 pref=a:1 suf=.:1
+DT prevT=JJ:1 prev2W=comma:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+`` prevT=DT:1 prevW=the:1
+NN prev2W=the:1 pref=b:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 nextW=comma:1 next2W=comma:1 pref=o:1 suf=r:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+VBD prev2W=comma:1 suf=t:1
+CD suf=n:1
+IN pref=o:1
+PRP$ prevT=IN:1 pref=t:1 suf=r:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN pref=t:1
+POS prevT=NN:1 suf=s:1
+CD
+NNS suf=s:1
+CC prevT=NNS:1 pref=a:1 suf=d:1
+VBD suf=d:1
+CD suf=r:1
+IN pref=o:1
+PRP$ prevT=IN:1 pref=i:1 suf=s:1
+NNS suf=s:1
+IN prevT=NNS:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=a:1 suf=a:1
+CD prevT=DT:1 prevTwoTags=IN+DT:1
+NN suf=n:1
+. prevT=NN:1 suf=.:1
+JJ containUC:1 suf=r:1
+NNP prevT=JJ:1 containUC:1 suf=e:1
+NNP prevT=NNP:1 containUC:1 suf=t:1
+VBD prevT=NNP:1 nextW=the:1 next2W=the:1 suf=d:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevW=the:1 containUC:1 suf=s:1
+TO prevT=NNP:1 prev2W=the:1 pref=t:1 suf=o:1
+CD suf=e:1
+NNS suf=s:1
+TO prevT=NNS:1 pref=t:1 suf=o:1
+VB pref=a:1 suf=t:1
+IN nextW=the:1 next2W=the:1 suf=r:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=o:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 nextW=the:1 next2W=the:1 pref=o:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=o:1 suf=r:1
+NN prevT=JJ:1 prev2W=the:1 suf=e:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1 suf=y:1
+NN prevT=NNP:1 prev2W=the:1 suf=r:1
+. prevT=NN:1 suf=.:1
+IN containUC:1 suf=t:1
+PRP prevT=IN:1 suf=e:1
+VBD nextW=the:1 next2W=the:1 suf=s:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevW=the:1 containUC:1
+NNP prevT=NNP:1 prev2W=the:1 suf=s:1
+JJS prevT=NNP:1 suf=t:1
+NN suf=r:1
+IN prevT=NN:1
+PRP$ prevT=IN:1 pref=i:1 suf=s:1
+NNP containUC:1 suf=n:1
+NNP prevT=NNP:1 containUC:1 suf=e:1
+NN prevT=NNP:1 pref=c:1 suf=n:1
+IN prevT=NN:1
+DT prevT=IN:1 pref=a:1 suf=a:1
+CD prevT=DT:1 prevTwoTags=IN+DT:1
+NN nextW=comma:1 next2W=comma:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=comma:1 prevW=comma:1 suf=s:1
+CD prevT=IN:1 prev2W=comma:1 pref=t:1 suf=o:1
+NNS suf=s:1
+IN prevT=NNS:1 pref=o:1 suf=r:1
+NNP prevT=IN:1 containUC:1 suf=o:1
+IN prevT=NNP:1 nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 nextW=comma:1 next2W=comma:1 suf=s:1
+comma prevT=NNS:1 prev2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+VBZ prevT=comma:1 prevW=comma:1 pref=i:1 suf=s:1
+PRP prev2W=comma:1 suf=e:1
+MD suf=y:1
+VB suf=e:1
+DT suf=e:1
+NN prevT=DT:1
+RP prevT=NN:1 prevTwoTags=DT+NN:1
+VBG nextW=comma:1 next2W=comma:1 pref=c:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 pref=b:1 suf=t:1
+IN prev2W=comma:1 nextW=the:1 next2W=the:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=y:1
+PRP$ prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+JJ suf=d:1
+NN prevT=JJ:1
+VBZ prevT=NN:1 pref=i:1 suf=s:1
+VBG nextW=comma:1 next2W=comma:1 pref=b:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=comma:1 prevW=comma:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+MD prevT=IN:1 prev2W=comma:1 suf=t:1
+RB suf=t:1
+VB pref=b:1 suf=e:1
+DT pref=t:1 suf=s:1 pref=th:1 pref=th:1
+NN prevT=DT:1
+. prevT=NN:1 prevTwoTags=DT+NN:1 suf=.:1
+DT containUC:1 suf=e:1
+JJ prevT=DT:1 suf=e:1
+VBZ prevT=JJ:1 suf=s:1
+IN suf=r:1
+NNP prevT=IN:1 containUC:1 suf=e:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1 suf=e:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+DT prevT=comma:1 prevW=comma:1 pref=a:1 suf=r:1
+NN prevT=DT:1 prev2W=comma:1 suf=n:1
+WP prevT=NN:1 prevTwoTags=DT+NN:1 suf=o:1
+VBD pref=o:1 suf=e:1
+JJ suf=y:1
+NNS prevT=JJ:1 suf=s:1
+TO prevT=NNS:1 pref=t:1 suf=o:1
+VB nextW=the:1 next2W=the:1 suf=t:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevW=the:1 containUC:1 suf=s:1
+RB prevT=NNP:1 prev2W=the:1 pref=b:1 suf=t:1
+DT pref=a:1 suf=a:1
+NN prevT=DT:1 suf=n:1
+CC prevT=NN:1 prevTwoTags=DT+NN:1 pref=a:1 suf=d:1
+CD suf=r:1
+NNS suf=s:1
+IN prevT=NNS:1 pref=i:1 suf=n:1
+CD prevT=IN:1 suf=n:1
+NNS pref=i:1 suf=s:1
+IN prevT=NNS:1 pref=i:1 suf=n:1
+NNP prevT=IN:1 containUC:1 suf=y:1
+POS prevT=NNP:1 suf=s:1
+NN pref=c:1 suf=t:1 pref=co:1 pref=co:1
+. prevT=NN:1 suf=.:1
+``
+DT containUC:1 suf=y:1
+NN prevT=DT:1 suf=y:1
+PRP prevT=NN:1 prevTwoTags=DT+NN:1 pref=t:1 suf=y:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBD suf=t:1
+RB pref=o:1 suf=t:1
+RB pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBD suf=d:1
+DT pref=a:1 suf=a:1
+JJR prevT=DT:1 pref=b:1 suf=r:1
+NN suf=r:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=t:1 suf=n:1 pref=th:1 pref=th:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=y:1
+RB prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 nextW=comma:1 next2W=comma:1 pref=b:1 suf=e:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+VBD prev2W=comma:1 suf=d:1
+JJ containUC:1 suf=t:1
+NN prevT=JJ:1 suf=r:1
+NNP prevT=NN:1 containUC:1 suf=r:1
+NNP prevT=NNP:1 containUC:1
+. prevT=NNP:1 suf=.:1
+PRP containUC:1 suf=e:1
+VBZ suf=s:1
+DT pref=a:1 suf=n:1
+NN prevT=DT:1 suf=r:1
+WP prevT=NN:1 prevTwoTags=DT+NN:1 suf=o:1
+VBZ suf=s:1
+CD pref=o:1 suf=e:1
+IN nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBG prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+NNS prev2W=the:1 suf=s:1
+IN prevT=NNS:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=e:1
+NN prevT=JJ:1 prev2W=the:1 nextW=comma:1 next2W=comma:1 suf=y:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+WDT prevT=comma:1 prevW=comma:1
+VBZ prev2W=comma:1 suf=s:1
+IN suf=e:1
+DT prevT=IN:1 pref=a:1 suf=a:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1
+PRP prevT=IN:1 pref=i:1 suf=t:1
+VBZ suf=s:1
+IN nextW=the:1 next2W=the:1 pref=b:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBG prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1
+NN prev2W=the:1 pref=b:1 suf=t:1
+. prevT=NN:1 suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 suf=t:1
+IN prevT=NN:1 prevTwoTags=DT+NN:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=t:1
+VBZ prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=i:1 suf=s:1
+IN nextW=the:1 next2W=the:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1
+NNP prevT=NNP:1 prev2W=the:1 suf=s:1
+VBP prevT=NNP:1 suf=o:1
+IN pref=i:1 suf=o:1
+NNP prevT=IN:1 containUC:1 suf=n:1
+NNP prevT=NNP:1 containUC:1 suf=o:1
+POS prevT=NNP:1 suf=s:1
+NNP containUC:1
+NNP prevT=NNP:1 containUC:1
+RB prevT=NNP:1 pref=t:1 suf=t:1
+IN
+CD prevT=IN:1 pref=t:1 suf=o:1
+NNS suf=s:1
+TO prevT=NNS:1 pref=t:1 suf=o:1
+NN suf=e:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=b:1 suf=n:1
+NN prevT=JJ:1 prev2W=the:1 suf=t:1
+. prevT=NN:1 suf=.:1
+DT containUC:1 suf=e:1
+NN prevT=DT:1 suf=t:1
+TO prevT=NN:1 prevTwoTags=DT+NN:1 pref=t:1 suf=o:1
+VB suf=n:1
+RP
+RB suf=e:1
+VBZ suf=s:1
+IN pref=t:1 suf=t:1 pref=th:1 pref=th:1
+RB prevT=IN:1 pref=a:1 suf=t:1
+CD pref=t:1 suf=e:1 pref=th:1 pref=th:1
+IN pref=o:1
+CD prevT=IN:1 suf=r:1
+NNS pref=c:1 suf=s:1
+-LRB- prevT=NNS:1 containUC:1
+CD
+IN pref=o:1
+CD prevT=IN:1
+-RRB- containUC:1
+WDT pref=t:1 suf=t:1 pref=th:1 pref=th:1
+VBD pref=t:1
+CD
+NNP containUC:1 suf=s:1
+NNS prevT=NNP:1 suf=s:1
+VBD prevT=NNS:1 suf=t:1
+RP pref=o:1 suf=n:1
+TO pref=t:1 suf=o:1
+VB suf=n:1
+PRP pref=i:1 suf=t:1
+DT pref=a:1
+. prevT=DT:1 suf=.:1
+DT containUC:1 suf=t:1
+VBZ prevT=DT:1 suf=s:1
+RB suf=t:1
+DT pref=a:1 suf=n:1
+NN prevT=DT:1 pref=a:1 suf=e:1
+TO prevT=NN:1 prevTwoTags=DT+NN:1 pref=t:1 suf=o:1
+VB suf=e:1
+NNP containUC:1 suf=t:1
+NNS prevT=NNP:1 suf=s:1
+. prevT=NNS:1 suf=.:1
+NN containUC:1 suf=e:1
+MD prevT=NN:1 suf=t:1
+VB pref=t:1 pref=th:1 pref=th:1
+IN nextW=the:1 next2W=the:1 pref=t:1 suf=t:1 pref=th:1 pref=th:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=e:1
+NNS prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 suf=s:1
+IN prevT=NNS:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=s:1 pref=th:1 pref=th:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 containUC:1 suf=s:1
+IN prevT=NNP:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNP prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 containUC:1 suf=y:1
+VBN prevT=NNP:1 prev2W=the:1 containUC:1 suf=d:1
+NNP containUC:1
+-LRB- prevT=NNP:1 containUC:1
+DT pref=t:1 suf=t:1 pref=th:1 pref=th:1
+VBZ prevT=DT:1 suf=s:1
+DT pref=a:1 suf=a:1
+JJR prevT=DT:1 pref=b:1 suf=r:1
+NN suf=e:1
+IN prevT=NN:1 suf=r:1
+DT prevT=IN:1 pref=a:1 suf=a:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1
+NN prevT=JJ:1 pref=c:1 suf=e:1 pref=co:1 pref=co:1
+IN prevT=NN:1 pref=t:1 suf=n:1 pref=th:1 pref=th:1
+`` prevT=IN:1
+NN nextW=comma:1 next2W=comma:1 containUC:1 suf=e:1
+comma prevT=NN:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+'' prevT=comma:1 prevW=comma:1
+VBP prev2W=comma:1 suf=o:1
+RB suf=t:1
+PRP
+VBP pref=t:1 pref=th:1 pref=th:1
+.
+-RRB- containUC:1
+MD suf=d:1
+VB suf=e:1
+VBN pref=b:1 suf=n:1
+JJ
+IN prevT=JJ:1 nextW=the:1 next2W=the:1 pref=o:1 suf=r:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 nextW=comma:1 next2W=comma:1 suf=s:1
+comma prevT=NNS:1 prev2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 pref=b:1 suf=t:1
+PRP prev2W=comma:1 pref=t:1 suf=y:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBP pref=o:1 suf=e:1
+PRP pref=t:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+IN pref=i:1 suf=n:1
+JJ prevT=IN:1 suf=e:1
+NN prevT=JJ:1 pref=c:1
+. prevT=NN:1 suf=.:1
+NNS containUC:1 suf=s:1
+IN prevT=NNS:1 nextW=the:1 next2W=the:1 pref=o:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+CD prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 pref=t:1 suf=o:1
+NNS prev2W=the:1 pref=c:1 suf=s:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1
+VBD prevT=NNS:1 suf=t:1
+NN suf=e:1
+IN prevT=NN:1 pref=b:1 suf=y:1
+NN prevT=IN:1 suf=e:1
+IN prevT=NN:1 nextW=the:1 next2W=the:1 pref=i:1 suf=n:1
+DT prevT=IN:1 pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+JJ prevT=DT:1 prevTwoTags=IN+DT:1 prevW=the:1 suf=s:1
+NNS prevT=JJ:1 prev2W=the:1 suf=s:1
+IN prevT=NNS:1 pref=o:1
+NNP prevT=IN:1 containUC:1 suf=d:1
+NNP prevT=NNP:1 nextW=comma:1 next2W=comma:1 containUC:1
+comma prevT=NNP:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+CC prevT=comma:1 prevW=comma:1 pref=a:1 suf=d:1
+IN prev2W=comma:1 suf=e:1
+PRP prevT=IN:1 pref=t:1 suf=y:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+VBD pref=c:1 suf=d:1
+PRP$ pref=t:1 suf=r:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NNS suf=s:1
+CC prevT=NNS:1 pref=a:1 suf=d:1
+VBD nextW=the:1 next2W=the:1 pref=b:1 suf=d:1
+DT pref=t:1 suf=e:1 pref=th:1 pref=th:1 pref=the:1 pref=the:1
+NN prevT=DT:1 prevW=the:1 nextW=comma:1 next2W=comma:1 pref=o:1 suf=n:1
+comma prevT=NN:1 prevTwoTags=DT+NN:1 prev2W=the:1 pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+NNS prevT=comma:1 prevW=comma:1 suf=s:1
+VBD prevT=NNS:1 prev2W=comma:1 pref=a:1 suf=d:1
+DT suf=o:1
+RBR prevT=DT:1 nextW=comma:1 next2W=comma:1 suf=r:1
+comma pref=c:1 suf=a:1 pref=co:1 pref=co:1 pref=com:1 pref=com:1 pref=comm:1 pref=comm:1
+IN prevT=comma:1 prevW=comma:1 pref=a:1 suf=t:1
+JJS prevT=IN:1 prev2W=comma:1 suf=t:1
+RB pref=a:1 suf=s:1
+RB suf=r:1
+IN pref=a:1 suf=s:1
+PRP prevT=IN:1 containUC:1
+MD pref=c:1 suf=d:1 pref=co:1 pref=co:1
+VB suf=e:1
+. suf=.:1
