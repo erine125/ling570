@@ -167,7 +167,7 @@ class POS_Tagger(object):
 
             next2W = self.indexed_word_dict[i][3]
             if next2W != None:
-                next2W_key = "nextW="+next2W
+                next2W_key = "next2W="+next2W
                 self.init_feat_freqs[next2W_key] += 1 
 
 
