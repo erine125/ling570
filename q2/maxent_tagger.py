@@ -55,15 +55,18 @@ class POS_Tagger(object):
                         word = word1 + word2
 
                     # Replace , # : in text with comma hash colon
-                    if word == ',':
-                        word = 'comma'
-                        tag = 'comma'
-                    if word == ':':
-                        word = 'colon'
-                        tag = 'colon'
-                    if word == '#':
-                        word = 'hash'
-                        tag = 'hash'
+                    if ',' in word:
+                        word = word.replace(',', 'comma')
+                        tag = tag.replace(',', 'comma')
+                    if ':' in word:
+                        word = word.replace(':', 'colon')
+                        tag = tag.replace(':', 'colon')
+                    if '#' in word:
+                        word = word.replace('#', 'hash')
+                        tag = tag.replace('#', 'hash')
+                    if ':' in tag:
+                        tag = tag.replace(':', 'colon')
+
                     
                     word_tag_tuple = (word, tag)
                     list_of_word_tag_tuples.append(word_tag_tuple)
@@ -121,9 +124,155 @@ class POS_Tagger(object):
             for element, count in sorted_word_freq_dict:
                 file.write(f"{element}\t{count}\n")
 
+    def create_test_vectors(self):
 
+        ##### READ IN TEST DATA ####
 
+        list_of_word_tag_tuples = []
 
+        with open(self.test_file, 'r') as file:
+            for line in file:
+                words_tags = line.rstrip().split()
+
+                for element in words_tags:
+                    try:
+                        word, tag = element.split('/')
+                    # This is so words with \/ are handled correctly. 
+                    except ValueError:
+                        word1, word2, tag = element.split('/')
+                        word = word1 + word2
+
+                    if ',' in word:
+                        word = word.replace(',', 'comma')
+                        tag = tag.replace(',', 'comma')
+                    if ':' in word:
+                        word = word.replace(':', 'colon')
+                        tag = tag.replace(':', 'colon')
+                    if '#' in word:
+                        word = word.replace('#', 'hash')
+                        tag = tag.replace('#', 'hash')
+                    if ':' in tag:
+                        tag = tag.replace(':', 'colon')
+                    
+                    word_tag_tuple = (word, tag)
+                    list_of_word_tag_tuples.append(word_tag_tuple)
+
+        ##### CREATE AND POPULATE index_word_dict AND tag_word_dict FOR TEST DATA #####
+
+        self.test_indexed_word_dict = {}
+        self.test_indexed_tag_dict = {}
+
+        for i in range(len(list_of_word_tag_tuples)):
+            word = list_of_word_tag_tuples[i][0]
+            tag = list_of_word_tag_tuples[i][1]
+
+            try:
+                tag_minus_1 = list_of_word_tag_tuples[i-1][1]
+                word_minus_1 = list_of_word_tag_tuples[i-1][0]
+            except IndexError:
+                tag_minus_1 = "BOS" 
+                word_minus_1 = "</s>"
+
+            try:
+                tag_minus_2 = list_of_word_tag_tuples[i-2][1]
+                word_minus_2 = list_of_word_tag_tuples[i-2][0]
+            except IndexError:
+                tag_minus_2 = None 
+                word_minus_2 = None
+
+            try:
+                word_plus_1 = list_of_word_tag_tuples[i+1][0]
+            except IndexError:
+                word_plus_1 = "<s>" 
+
+            try:
+                word_plus_2 = list_of_word_tag_tuples[i+2][0]
+            except IndexError:
+                word_plus_2 = None
+
+            tags_list = [tag_minus_2, tag_minus_1, tag]
+            words_list = [word_minus_2, word_minus_1, word, word_plus_1, word_plus_2]
+
+            self.test_indexed_tag_dict[i] = tags_list
+            self.test_indexed_word_dict[i] = words_list
+
+        ##### CREATE AND POPULATE A DICT OF FEATURES ####
+
+        self.test_index_to_feature_list = {}
+
+        for i in range(len(list_of_word_tag_tuples)):
+            self.test_index_to_feature_list[i] = [] #for each token, store a list of its features.
+
+            prevT = self.test_indexed_tag_dict[i][1]
+            prevT_key = "prevT="+prevT
+            self.test_index_to_feature_list[i].append(prevT_key+":1")
+
+            prev2T = self.test_indexed_tag_dict[i][0]
+            if prev2T != None:
+                prevTwoTags_key = "prevTwoTags="+prev2T+ "+" +prevT 
+                self.test_index_to_feature_list[i].append(prevTwoTags_key+":1")
+
+            prevW = self.test_indexed_word_dict[i][1]
+            prevW_key = "prevW="+prevW  
+            self.test_index_to_feature_list[i].append(prevW_key+":1")
+
+            prev2W = self.test_indexed_word_dict[i][0]
+            if prev2W != None:
+                prev2W_key = "prev2W="+prev2W  
+                self.test_index_to_feature_list[i].append(prev2W_key+":1")
+
+            nextW = self.test_indexed_word_dict[i][3]
+            nextW_key = "nextW="+nextW
+            self.test_index_to_feature_list[i].append(nextW_key+":1")
+
+            next2W = self.test_indexed_word_dict[i][3]
+            if next2W != None:
+                next2W_key = "next2W="+next2W
+                self.test_index_to_feature_list[i].append(next2W_key+":1")
+
+            word = self.test_indexed_word_dict[i][2]
+            word_isRare = self.isRare(word)
+
+            if not word_isRare: # if word is not rare:
+                curW_key = "curW="+word
+                self.test_index_to_feature_list[i].append(curW_key+":1")
+
+            else: # if word is rare:
+                word_containsnum = containsNumber(word)
+                word_containsUC = containsUpper(word)
+                word_containsHyp = containsHyphen(word)
+
+                if word_containsnum: 
+                    self.test_index_to_feature_list[i].append("containNum:1")
+
+                if word_containsUC:
+                    self.test_index_to_feature_list[i].append("containUC:1")
+
+                if word_containsHyp: 
+                    self.test_index_to_feature_list[i].append("containHyp:1")
+
+                ### prefix and suffix features ### 
+                for j in range(len(word)):
+                    if j == 0:
+                        
+                        pre = word[j]
+                        pre_key = "pref=" + pre 
+                        self.test_index_to_feature_list[i].append(pre_key+":1")
+
+                        suf = word[-1]
+                        suf_key = "suf=" + suf
+                        self.test_index_to_feature_list[i].append(suf_key+":1")
+
+                    elif (j == 1) or (j == 2) or (j == 3):
+                        pre = word[:j+1]
+                        pre_key = "pref=" + pre 
+                        self.test_index_to_feature_list[i].append(pre_key+":1")
+
+                        suf = word[(-j-1):]
+                        suf_key = "suf=" + suf
+                        self.test_index_to_feature_list[i].append(pre_key+":1")
+
+   
 
 
     def create_init_feats(self):
@@ -286,9 +435,28 @@ class POS_Tagger(object):
                 toprint += "\n"
                 outfile.write(toprint)
 
+    def print_test_vectors(self):
+        file_path = self.output_dir + "/final_test.vectors.txt"
+
+        with open(file_path, 'w') as outfile:
+
+            for i in self.test_index_to_feature_list:
+                tag = self.test_indexed_tag_dict[i][2]
+                toprint = tag 
+
+                for feature in self.test_index_to_feature_list[i]:
+                    if feature[:-2] in self.kept_feat_freqs: # only keep features in kept_freqs which we got from the training data
+                        toprint += " " + feature 
+
+                toprint += "\n"
+                outfile.write(toprint)
+
 
 
     def isRare(self, word):
+        if word not in self.word_freq_dict: #if word doesnt appear at all, then it's definitely rare 
+            return True
+
         if self.word_freq_dict[word] < self.rare_thres:
             return True
         else:
@@ -308,6 +476,8 @@ def containsHyphen(word):
     return any((i == "-") for i in word)
 
 
+
+
     
     
 
@@ -325,6 +495,9 @@ def main():
     tagger.create_kept_feats()
     tagger.print_kept_feats()
     tagger.print_train_vectors()
+
+    tagger.create_test_vectors()
+    tagger.print_test_vectors()
 
 
 if __name__ == "__main__":
