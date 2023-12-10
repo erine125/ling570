@@ -3,6 +3,7 @@
 
 import sys
 import os 
+from collections import defaultdict
 
 def read_from_commandline():
     try:
@@ -24,11 +25,10 @@ class POS_Tagger(object):
     def __init__(self, train_file, test_file, rare_thres, feat_thres, output_dir):
         self.train_file = train_file 
         self.test_file = test_file 
-        self.rare_thres = rare_thres 
-        self.feat_thres = feat_thres
+        self.rare_thres = int(rare_thres) 
+        self.feat_thres = int(feat_thres)
         self.output_dir = output_dir 
 
-    
 
     def create_train_voc(self):
 
@@ -36,7 +36,7 @@ class POS_Tagger(object):
         self.word_freq_dict = {}
         self.indexed_word_dict = {} #dict that maps a unique index of a word to a list of its neighboring words
         # { i : w_i-2, w_i-1, w_i, w_i+1, w_i+2}
-        self.indexed_tag_list = {}
+        self.indexed_tag_dict = {}
             
         ######################## Create train_voc with words and frequencies ###################################
 
@@ -69,8 +69,6 @@ class POS_Tagger(object):
 
         #### Create a dictionary with word:freq
 
-
-
         for i in range(len(list_of_word_tag_tuples)):
             word = list_of_word_tag_tuples[i][0]
             tag = list_of_word_tag_tuples[i][1]
@@ -85,7 +83,7 @@ class POS_Tagger(object):
                 word_minus_1 = list_of_word_tag_tuples[i-1][0]
             except IndexError:
                 tag_minus_1 = "BOS" 
-                word_minus_1 = "BOS"
+                word_minus_1 = "</s>"
 
             try:
                 tag_minus_2 = list_of_word_tag_tuples[i-2][1]
@@ -97,7 +95,7 @@ class POS_Tagger(object):
             try:
                 word_plus_1 = list_of_word_tag_tuples[i+1][0]
             except IndexError:
-                word_plus_1 = "EOS" 
+                word_plus_1 = "<s>" 
 
             try:
                 word_plus_2 = list_of_word_tag_tuples[i+2][0]
@@ -107,13 +105,10 @@ class POS_Tagger(object):
             tags_list = [tag_minus_2, tag_minus_1, tag]
             words_list = [word_minus_2, word_minus_1, word, word_plus_1, word_plus_2]
 
-            self.indexed_tag_list[i] = tags_list
+            self.indexed_tag_dict[i] = tags_list
             self.indexed_word_dict[i] = words_list
 
-            #TODO: make some kind of dictionary that maps EACH TOKEN (not each type!) to these features
-            
-            
-            
+
 
         #### Sort the dictionary in a list of tuples with word, freq
         sorted_word_freq_dict = sorted(self.word_freq_dict.items(), key=lambda x: x[1], reverse=True)
@@ -121,7 +116,6 @@ class POS_Tagger(object):
         output_file_path = self.output_dir + "/train_voc"
 
         #### Print sorted word, freq to train_voc file
-        # *We need to write this file in the output_dir folder. Right now it is just creating it in the current folder. <- DONE :)
         with open(output_file_path, 'w') as file:
             for element, count in sorted_word_freq_dict:
                 file.write(f"{element}\t{count}\n")
@@ -131,22 +125,83 @@ class POS_Tagger(object):
 
 
 
-    # def create_vectors(self):
+    def create_vectors(self):
 
-    #     self.words_rarity = {}
-    #     self.word_contains_number = {}
-    #     self.word_contains_uppercase = {}
-    #     self.word_contains_hyphen = {}
+        #dicts storing each feature
+
+        # form of these dicts: { i : True or False based on whether or not w_i contains this feature }
+        self.index_rarity = {}
+        self.index_containsnum = {}
+        self.index_containsUC = {}
+        self.index_containsHyp = {}
+
+        self.init_feat_freqs = defaultdict(int) #dict that maps the name of each feature to its frequency
+        self.kept_feat_freqs = defaultdict(int) #same as init_feat_freqs, but only counts the features that are kept after applying feat_thres.
 
 
+        # loop through each token in the training file
 
-    ### HELPER FUNCS###
-def isRare(word):
-    if self.word_freq_dict[word] < self.rare_thres:
-        return True
+        for i in self.indexed_word_dict:
+            word = self.indexed_word_dict[i][2]
+            word_isRare = self.isRare(word)
 
-    else:
-        return False 
+            curW_key = "curW="+word
+            self.init_feat_freqs[curW_key] += 1
+
+            prevT = self.indexed_tag_dict[i][1]
+            prevT_key = "prevT="+prevT
+            self.init_feat_freqs[prevT_key] += 1
+
+            prevW = self.indexed_word_dict[i][1]
+            prevW_key = "prevW="+prevW  
+            self.init_feat_freqs[prevW_key] += 1
+
+            prev2W = self.indexed_word_dict[i][0]
+            if prev2W != None:
+                prev2W_key = "prev2W="+prev2W  
+                self.init_feat_freqs[prev2W_key] += 1
+
+            nextW = self.indexed_word_dict[i][3]
+            nextW_key = "nextW="+nextW
+            self.init_feat_freqs[nextW_key] += 1 
+
+            next2W = self.indexed_word_dict[i][3]
+            if next2W != None:
+                next2W_key = "nextW="+next2W
+                self.init_feat_freqs[next2W_key] += 1 
+
+
+            if word_isRare:
+                word_containsnum = containsNumber(word)
+                word_containsUC = containsUpper(word)
+                word_containsHyp = containsHyphen(word)
+
+                if word_containsnum: 
+                    self.init_feat_freqs["containNum"] += 1
+
+                if word_containsUC:
+                    self.init_feat_freqs["containUC"] += 1
+
+                if word_containsHyp: 
+                    self.init_feat_freqs["containHyp"] += 1
+            
+            self.index_rarity[i] = word_isRare
+            self.index_containsnum = word_containsnum
+            self.index_containsUC = word_containsUC 
+            self.index_containsHyp = word_containsHyp
+
+        print(self.init_feat_freqs)
+        print(len(self.indexed_word_dict))
+        
+
+    def isRare(self, word):
+        if self.word_freq_dict[word] < self.rare_thres:
+            return True
+        else:
+            return False 
+
+    ###FEATURE HELPER FUNCS###
+
 
 def containsNumber(word):
     return any(i.isdigit() for i in word) 
